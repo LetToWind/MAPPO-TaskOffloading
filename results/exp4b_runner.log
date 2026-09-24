@@ -1,0 +1,22 @@
+launching 10 runs into C:\Users\zengd\Desktop\论文\W-MADDPG\MADDPG_Discrete\results\exp4b_seeds (max_parallel=8)
+[   0.0min] started c3_none_s6 (A) — 1 running, 9 pending
+[   0.0min] started c3_none_s7 (A) — 2 running, 8 pending
+[   0.0min] started c3_none_s8 (A) — 3 running, 7 pending
+[   0.0min] started c3_none_s9 (A) — 4 running, 6 pending
+[   0.0min] started c3_none_s10 (A) — 5 running, 5 pending
+[   0.0min] started c3_unfixed_1-4_s6 (A) — 6 running, 4 pending
+[   0.0min] started c3_unfixed_1-4_s7 (A) — 7 running, 3 pending
+[   0.0min] started c3_unfixed_1-4_s8 (A) — 8 running, 2 pending
+[  14.2min] finished c3_none_s6 (rc=0) — 1/10 done
+[  14.2min] finished c3_none_s7 (rc=0) — 2/10 done
+[  14.2min] finished c3_none_s9 (rc=0) — 3/10 done
+[  14.2min] finished c3_none_s10 (rc=0) — 4/10 done
+[  14.2min] started c3_unfixed_1-4_s9 (A) — 5 running, 1 pending
+[  14.2min] started c3_unfixed_1-4_s10 (A) — 6 running, 0 pending
+[  14.3min] finished c3_none_s8 (rc=0) — 5/10 done
+[  14.4min] finished c3_unfixed_1-4_s6 (rc=0) — 6/10 done
+[  14.4min] finished c3_unfixed_1-4_s7 (rc=0) — 7/10 done
+[  14.4min] finished c3_unfixed_1-4_s8 (rc=0) — 8/10 done
+[  23.0min] finished c3_unfixed_1-4_s9 (rc=0) — 9/10 done
+[  24.1min] finished c3_unfixed_1-4_s10 (rc=0) — 10/10 done
+ALL DONE in 24.1 min

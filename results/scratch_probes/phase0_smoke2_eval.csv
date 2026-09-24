@@ -1,0 +1,4 @@
+# greedy eval | topology=fixed eval_eps=5
+episode,eval_reward,eval_success,eval_fail
+25,37.477826234262565,16.2,8.8
+50,51.95738151655685,17.6,7.4

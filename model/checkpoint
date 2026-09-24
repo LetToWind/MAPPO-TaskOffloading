@@ -1,0 +1,3 @@
+model_checkpoint_path: "C:\\Users\\zengd\\Desktop\\\350\256\272\346\226\207\\W-MADDPG\\MADDPG_Discrete\\model\\maddpg_final"
+all_model_checkpoint_paths: "C:\\Users\\zengd\\Desktop\\\350\256\272\346\226\207\\W-MADDPG\\MADDPG_Discrete\\model\\maddpg-0"
+all_model_checkpoint_paths: "C:\\Users\\zengd\\Desktop\\\350\256\272\346\226\207\\W-MADDPG\\MADDPG_Discrete\\model\\maddpg_final"

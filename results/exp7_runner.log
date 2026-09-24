@@ -1,0 +1,22 @@
+launching 10 runs into C:\Users\zengd\Desktop\论文\W-MADDPG\MADDPG_Discrete\results\exp7_varfix (max_parallel=8)
+[   0.0min] started u25_none_s1 (UE) — 1 running, 9 pending
+[   0.0min] started u25_none_s2 (UE) — 2 running, 8 pending
+[   0.0min] started u25_none_s3 (UE) — 3 running, 7 pending
+[   0.0min] started u25_none_s4 (UE) — 4 running, 6 pending
+[   0.0min] started u25_none_s5 (UE) — 5 running, 5 pending
+[   0.0min] started u25_none_s6 (UE) — 6 running, 4 pending
+[   0.0min] started u25_none_s7 (UE) — 7 running, 3 pending
+[   0.0min] started u25_none_s8 (UE) — 8 running, 2 pending
+[  11.7min] finished u25_none_s6 (rc=0) — 1/10 done
+[  11.7min] started u25_none_s9 (UE) — 8 running, 1 pending
+[  11.8min] finished u25_none_s1 (rc=0) — 2/10 done
+[  11.8min] finished u25_none_s2 (rc=0) — 3/10 done
+[  11.8min] finished u25_none_s3 (rc=0) — 4/10 done
+[  11.8min] finished u25_none_s4 (rc=0) — 5/10 done
+[  11.8min] finished u25_none_s5 (rc=0) — 6/10 done
+[  11.8min] finished u25_none_s7 (rc=0) — 7/10 done
+[  11.8min] finished u25_none_s8 (rc=0) — 8/10 done
+[  11.8min] started u25_none_s10 (UE) — 2 running, 0 pending
+[  17.3min] finished u25_none_s9 (rc=0) — 9/10 done
+[  17.4min] finished u25_none_s10 (rc=0) — 10/10 done
+ALL DONE in 17.4 min

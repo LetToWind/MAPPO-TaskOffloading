@@ -1,0 +1,48 @@
+========================================================================
+A. CH=3, none vs unfixed[1,4] — 5 seeds (exp3 s1-3 + exp4 s4-5)
+========================================================================
+  c3_none_s1             reward=   6.26 success=13.20
+  c3_none_s10            reward=  -3.30 success=12.20
+  c3_none_s2             reward=  21.62 success=14.80
+  c3_none_s3             reward=   3.28 success=13.00
+  c3_none_s4             reward=  16.06 success=14.20
+  c3_none_s5             reward=  22.80 success=14.80
+  c3_none_s6             reward=   5.44 success=13.20
+  c3_none_s7             reward=  -8.02 success=11.80
+  c3_none_s8             reward=  -8.98 success=11.60
+  c3_none_s9             reward=  -2.27 success=12.20
+  c3_unfixed_1-4_s1      reward=  14.19 success=14.00
+  c3_unfixed_1-4_s10     reward=  12.71 success=13.72
+  c3_unfixed_1-4_s2      reward=  -4.26 success=12.00
+  c3_unfixed_1-4_s3      reward=  -0.58 success=12.44
+  c3_unfixed_1-4_s4      reward=   9.49 success=13.51
+  c3_unfixed_1-4_s5      reward=   6.44 success=12.96
+  c3_unfixed_1-4_s6      reward=   3.36 success=12.88
+  c3_unfixed_1-4_s7      reward=  21.49 success=14.90
+  c3_unfixed_1-4_s8      reward=  -3.45 success=12.16
+  c3_unfixed_1-4_s9      reward=  -1.28 success=12.34
+
+  reward  : none 5.29 +/- 10.98  vs  unfixed 5.81 +/- 8.14   (9.8%)  t=-0.11 p=0.9105
+  success : none 13.10 +/- 1.12  vs  unfixed 13.09 +/- 0.88   (-0.1%)  t=0.02 p=0.9851
+  significance (alpha=0.05): reward no | success no
+
+========================================================================
+B. Dose-response at CH=3 — unfixed delay range vs degradation
+========================================================================
+  range          n   reward (vs none)  success (vs none)
+  1-2            3     6.44   +21.8%    13.16    +0.5%
+  1-3            3    10.99  +107.7%    13.65    +4.2%
+  1-4           10     5.81    +9.8%    13.09    -0.1%
+  2-4            3    -5.42  -202.5%    11.99    -8.4%
+  plot -> C:\Users\zengd\Desktop\论文\W-MADDPG\MADDPG_Discrete\results\exp4_sealing\dose_response.png
+
+========================================================================
+C. 2x2 interaction: congestion (CH 6/3) x delay (none / unfixed[1,4])
+========================================================================
+                         no delay     unfixed [1,4]
+  CH=6 (uncongested)       61.73 (n=3) success 18.73
+                                      58.84 (n=3) success 18.38
+  CH=3 (congested)          5.29 (n=10) success 13.10
+                                       5.81 (n=10) success 13.09
+
+  note: CH=6 none cell is from exp2 (3000 eps); others 4000 eps.

@@ -1,0 +1,120 @@
+WARNING:tensorflow:From C:\Users\zengd\Desktop\论文\W-MADDPG\MADDPG_Discrete\train_mappo_phase0.py:155: The name tf.set_random_seed is deprecated. Please use tf.compat.v1.set_random_seed instead.
+
+WARNING:tensorflow:From C:\Users\zengd\Desktop\论文\W-MADDPG\MADDPG_Discrete\mappo_agent.py:31: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From C:\Users\zengd\Desktop\论文\W-MADDPG\MADDPG_Discrete\mappo_agent.py:43: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From C:\Users\zengd\Desktop\论文\W-MADDPG\MADDPG_Discrete\mappo_agent.py:7: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From D:\tool\anaconda\envs\py37tf\lib\site-packages\tensorflow_core\python\layers\core.py:187: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:tensorflow:From C:\Users\zengd\Desktop\论文\W-MADDPG\MADDPG_Discrete\mappo_agent.py:114: The name tf.log is deprecated. Please use tf.math.log instead.
+
+WARNING:tensorflow:From C:\Users\zengd\Desktop\论文\W-MADDPG\MADDPG_Discrete\mappo_agent.py:76: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From C:\Users\zengd\Desktop\论文\W-MADDPG\MADDPG_Discrete\mappo_agent.py:76: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From C:\Users\zengd\Desktop\论文\W-MADDPG\MADDPG_Discrete\mappo_agent.py:122: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From D:\tool\anaconda\envs\py37tf\lib\site-packages\tensorflow_core\python\ops\math_grad.py:1424: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From C:\Users\zengd\Desktop\论文\W-MADDPG\MADDPG_Discrete\train_mappo_phase0.py:230: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From C:\Users\zengd\Desktop\论文\W-MADDPG\MADDPG_Discrete\train_mappo_phase0.py:234: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2026-09-22 11:52:07.576840: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+WARNING:tensorflow:From C:\Users\zengd\Desktop\论文\W-MADDPG\MADDPG_Discrete\train_mappo_phase0.py:235: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+ep 1/4000 | reward(MA200)=-27.10 success=10.00 fail=15.00 | 1.25s/ep | delay=0.00
+ep 50/4000 | reward(MA200)=-41.99 success=8.36 fail=16.64 | 0.17s/ep | delay=0.00
+ep 100/4000 | reward(MA200)=-42.23 success=8.35 fail=16.65 | 0.14s/ep | delay=0.00
+ep 150/4000 | reward(MA200)=-40.26 success=8.55 fail=16.45 | 0.14s/ep | delay=0.00
+ep 200/4000 | reward(MA200)=-38.91 success=8.69 fail=16.31 | 0.13s/ep | delay=0.00
+ep 250/4000 | reward(MA200)=-36.67 success=8.92 fail=16.08 | 0.13s/ep | delay=0.00
+ep 300/4000 | reward(MA200)=-32.76 success=9.30 fail=15.70 | 0.13s/ep | delay=0.00
+ep 350/4000 | reward(MA200)=-31.37 success=9.44 fail=15.56 | 0.13s/ep | delay=0.00
+ep 400/4000 | reward(MA200)=-28.05 success=9.77 fail=15.23 | 0.12s/ep | delay=0.00
+ep 450/4000 | reward(MA200)=-24.17 success=10.15 fail=14.85 | 0.12s/ep | delay=0.00
+ep 500/4000 | reward(MA200)=-21.59 success=10.41 fail=14.59 | 0.12s/ep | delay=0.00
+ep 550/4000 | reward(MA200)=-18.04 success=10.76 fail=14.24 | 0.12s/ep | delay=0.00
+ep 600/4000 | reward(MA200)=-15.59 success=11.00 fail=14.00 | 0.12s/ep | delay=0.00
+ep 650/4000 | reward(MA200)=-12.12 success=11.35 fail=13.65 | 0.12s/ep | delay=0.00
+ep 700/4000 | reward(MA200)=-9.87 success=11.58 fail=13.42 | 0.12s/ep | delay=0.00
+ep 750/4000 | reward(MA200)=-6.69 success=11.90 fail=13.10 | 0.14s/ep | delay=0.00
+ep 800/4000 | reward(MA200)=-4.34 success=12.14 fail=12.86 | 0.14s/ep | delay=0.00
+ep 850/4000 | reward(MA200)=-3.99 success=12.18 fail=12.82 | 0.15s/ep | delay=0.00
+ep 900/4000 | reward(MA200)=-2.86 success=12.28 fail=12.72 | 0.15s/ep | delay=0.00
+ep 950/4000 | reward(MA200)=-1.82 success=12.38 fail=12.62 | 0.16s/ep | delay=0.00
+ep 1000/4000 | reward(MA200)=-0.61 success=12.50 fail=12.50 | 0.16s/ep | delay=0.00
+ep 1050/4000 | reward(MA200)=-0.27 success=12.54 fail=12.46 | 0.16s/ep | delay=0.00
+ep 1100/4000 | reward(MA200)=0.58 success=12.64 fail=12.36 | 0.16s/ep | delay=0.00
+ep 1150/4000 | reward(MA200)=0.98 success=12.69 fail=12.31 | 0.16s/ep | delay=0.00
+ep 1200/4000 | reward(MA200)=2.50 success=12.85 fail=12.15 | 0.16s/ep | delay=0.00
+ep 1250/4000 | reward(MA200)=4.33 success=13.04 fail=11.96 | 0.17s/ep | delay=0.00
+ep 1300/4000 | reward(MA200)=4.81 success=13.08 fail=11.92 | 0.17s/ep | delay=0.00
+ep 1350/4000 | reward(MA200)=6.91 success=13.29 fail=11.71 | 0.17s/ep | delay=0.00
+ep 1400/4000 | reward(MA200)=7.00 success=13.29 fail=11.71 | 0.17s/ep | delay=0.00
+ep 1450/4000 | reward(MA200)=7.71 success=13.37 fail=11.63 | 0.17s/ep | delay=0.00
+ep 1500/4000 | reward(MA200)=9.94 success=13.59 fail=11.41 | 0.17s/ep | delay=0.00
+ep 1550/4000 | reward(MA200)=10.57 success=13.65 fail=11.35 | 0.17s/ep | delay=0.00
+ep 1600/4000 | reward(MA200)=11.60 success=13.76 fail=11.24 | 0.17s/ep | delay=0.00
+ep 1650/4000 | reward(MA200)=13.13 success=13.91 fail=11.09 | 0.17s/ep | delay=0.00
+ep 1700/4000 | reward(MA200)=12.98 success=13.89 fail=11.11 | 0.17s/ep | delay=0.00
+ep 1750/4000 | reward(MA200)=13.84 success=13.97 fail=11.03 | 0.17s/ep | delay=0.00
+ep 1800/4000 | reward(MA200)=14.32 success=14.01 fail=10.99 | 0.17s/ep | delay=0.00
+ep 1850/4000 | reward(MA200)=15.00 success=14.07 fail=10.93 | 0.17s/ep | delay=0.00
+ep 1900/4000 | reward(MA200)=16.63 success=14.22 fail=10.78 | 0.17s/ep | delay=0.00
+ep 1950/4000 | reward(MA200)=15.37 success=14.09 fail=10.91 | 0.17s/ep | delay=0.00
+ep 2000/4000 | reward(MA200)=16.56 success=14.20 fail=10.80 | 0.17s/ep | delay=0.00
+ep 2050/4000 | reward(MA200)=17.12 success=14.26 fail=10.74 | 0.17s/ep | delay=0.00
+ep 2100/4000 | reward(MA200)=17.77 success=14.31 fail=10.69 | 0.17s/ep | delay=0.00
+ep 2150/4000 | reward(MA200)=19.97 success=14.53 fail=10.47 | 0.17s/ep | delay=0.00
+ep 2200/4000 | reward(MA200)=20.59 success=14.60 fail=10.40 | 0.17s/ep | delay=0.00
+ep 2250/4000 | reward(MA200)=21.16 success=14.64 fail=10.36 | 0.17s/ep | delay=0.00
+ep 2300/4000 | reward(MA200)=22.14 success=14.74 fail=10.26 | 0.17s/ep | delay=0.00
+ep 2350/4000 | reward(MA200)=22.02 success=14.73 fail=10.27 | 0.17s/ep | delay=0.00
+ep 2400/4000 | reward(MA200)=22.17 success=14.73 fail=10.27 | 0.17s/ep | delay=0.00
+ep 2450/4000 | reward(MA200)=22.49 success=14.77 fail=10.23 | 0.17s/ep | delay=0.00
+ep 2500/4000 | reward(MA200)=22.94 success=14.80 fail=10.20 | 0.17s/ep | delay=0.00
+ep 2550/4000 | reward(MA200)=24.85 success=14.98 fail=10.02 | 0.17s/ep | delay=0.00
+ep 2600/4000 | reward(MA200)=25.94 success=15.10 fail=9.90 | 0.17s/ep | delay=0.00
+ep 2650/4000 | reward(MA200)=27.11 success=15.21 fail=9.79 | 0.17s/ep | delay=0.00
+ep 2700/4000 | reward(MA200)=28.33 success=15.32 fail=9.68 | 0.17s/ep | delay=0.00
+ep 2750/4000 | reward(MA200)=28.46 success=15.34 fail=9.66 | 0.17s/ep | delay=0.00
+ep 2800/4000 | reward(MA200)=27.80 success=15.26 fail=9.74 | 0.17s/ep | delay=0.00
+ep 2850/4000 | reward(MA200)=26.74 success=15.15 fail=9.85 | 0.17s/ep | delay=0.00
+ep 2900/4000 | reward(MA200)=26.13 success=15.10 fail=9.90 | 0.17s/ep | delay=0.00
+ep 2950/4000 | reward(MA200)=26.05 success=15.09 fail=9.91 | 0.17s/ep | delay=0.00
+ep 3000/4000 | reward(MA200)=27.48 success=15.23 fail=9.77 | 0.17s/ep | delay=0.00
+ep 3050/4000 | reward(MA200)=28.88 success=15.36 fail=9.64 | 0.17s/ep | delay=0.00
+ep 3100/4000 | reward(MA200)=29.57 success=15.43 fail=9.57 | 0.17s/ep | delay=0.00
+ep 3150/4000 | reward(MA200)=29.96 success=15.46 fail=9.54 | 0.17s/ep | delay=0.00
+ep 3200/4000 | reward(MA200)=30.53 success=15.52 fail=9.48 | 0.17s/ep | delay=0.00
+ep 3250/4000 | reward(MA200)=31.60 success=15.62 fail=9.38 | 0.17s/ep | delay=0.00
+ep 3300/4000 | reward(MA200)=32.04 success=15.67 fail=9.33 | 0.17s/ep | delay=0.00
+ep 3350/4000 | reward(MA200)=31.63 success=15.63 fail=9.37 | 0.17s/ep | delay=0.00
+ep 3400/4000 | reward(MA200)=31.56 success=15.63 fail=9.37 | 0.17s/ep | delay=0.00
+ep 3450/4000 | reward(MA200)=31.40 success=15.62 fail=9.38 | 0.17s/ep | delay=0.00
+ep 3500/4000 | reward(MA200)=30.33 success=15.50 fail=9.50 | 0.17s/ep | delay=0.00
+ep 3550/4000 | reward(MA200)=30.70 success=15.53 fail=9.47 | 0.17s/ep | delay=0.00
+ep 3600/4000 | reward(MA200)=30.02 success=15.46 fail=9.54 | 0.17s/ep | delay=0.00
+ep 3650/4000 | reward(MA200)=29.07 success=15.36 fail=9.64 | 0.17s/ep | delay=0.00
+ep 3700/4000 | reward(MA200)=29.52 success=15.41 fail=9.59 | 0.17s/ep | delay=0.00
+ep 3750/4000 | reward(MA200)=29.47 success=15.41 fail=9.59 | 0.17s/ep | delay=0.00
+ep 3800/4000 | reward(MA200)=29.34 success=15.39 fail=9.61 | 0.17s/ep | delay=0.00
+ep 3850/4000 | reward(MA200)=30.10 success=15.47 fail=9.53 | 0.18s/ep | delay=0.00
+ep 3900/4000 | reward(MA200)=30.20 success=15.48 fail=9.52 | 0.18s/ep | delay=0.00
+ep 3950/4000 | reward(MA200)=30.75 success=15.54 fail=9.46 | 0.18s/ep | delay=0.00
+ep 4000/4000 | reward(MA200)=32.15 success=15.66 fail=9.34 | 0.17s/ep | delay=0.00
+DONE tag=fz_r07s06_s3 -> C:\Users\zengd\Desktop\论文\W-MADDPG\MADDPG_Discrete\results\exp9_voil\phase0_fz_r07s06_s3.csv

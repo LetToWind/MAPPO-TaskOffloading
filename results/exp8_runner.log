@@ -1,0 +1,62 @@
+launching 30 runs into C:\Users\zengd\Desktop\论文\W-MADDPG\MADDPG_Discrete\results\exp8_delay_stable (max_parallel=8)
+[   0.0min] started u25_fixed_d3_s1 (UE) — 1 running, 29 pending
+[   0.0min] started u25_fixed_d3_s2 (UE) — 2 running, 28 pending
+[   0.0min] started u25_fixed_d3_s3 (UE) — 3 running, 27 pending
+[   0.0min] started u25_fixed_d3_s4 (UE) — 4 running, 26 pending
+[   0.0min] started u25_fixed_d3_s5 (UE) — 5 running, 25 pending
+[   0.0min] started u25_fixed_d3_s6 (UE) — 6 running, 24 pending
+[   0.0min] started u25_fixed_d3_s7 (UE) — 7 running, 23 pending
+[   0.0min] started u25_fixed_d3_s8 (UE) — 8 running, 22 pending
+[  13.3min] finished u25_fixed_d3_s1 (rc=0) — 1/30 done
+[  13.3min] finished u25_fixed_d3_s2 (rc=0) — 2/30 done
+[  13.3min] finished u25_fixed_d3_s4 (rc=0) — 3/30 done
+[  13.3min] finished u25_fixed_d3_s5 (rc=0) — 4/30 done
+[  13.3min] finished u25_fixed_d3_s6 (rc=0) — 5/30 done
+[  13.3min] finished u25_fixed_d3_s7 (rc=0) — 6/30 done
+[  13.3min] finished u25_fixed_d3_s8 (rc=0) — 7/30 done
+[  13.3min] started u25_fixed_d3_s9 (UE) — 2 running, 21 pending
+[  13.3min] started u25_fixed_d3_s10 (UE) — 3 running, 20 pending
+[  13.3min] started u25_fixed_d5_s1 (UE) — 4 running, 19 pending
+[  13.3min] started u25_fixed_d5_s2 (UE) — 5 running, 18 pending
+[  13.3min] started u25_fixed_d5_s3 (UE) — 6 running, 17 pending
+[  13.3min] started u25_fixed_d5_s4 (UE) — 7 running, 16 pending
+[  13.3min] started u25_fixed_d5_s5 (UE) — 8 running, 15 pending
+[  13.4min] finished u25_fixed_d3_s3 (rc=0) — 8/30 done
+[  13.4min] started u25_fixed_d5_s6 (UE) — 8 running, 14 pending
+[  29.3min] finished u25_fixed_d5_s2 (rc=0) — 9/30 done
+[  29.3min] finished u25_fixed_d5_s4 (rc=0) — 10/30 done
+[  29.3min] finished u25_fixed_d5_s5 (rc=0) — 11/30 done
+[  29.3min] started u25_fixed_d5_s7 (UE) — 6 running, 13 pending
+[  29.3min] started u25_fixed_d5_s8 (UE) — 7 running, 12 pending
+[  29.3min] started u25_fixed_d5_s9 (UE) — 8 running, 11 pending
+[  29.4min] finished u25_fixed_d3_s9 (rc=0) — 12/30 done
+[  29.4min] finished u25_fixed_d3_s10 (rc=0) — 13/30 done
+[  29.4min] finished u25_fixed_d5_s1 (rc=0) — 14/30 done
+[  29.4min] started u25_fixed_d5_s10 (UE) — 6 running, 10 pending
+[  29.4min] started u25_unfixed_1-4_s1 (UE) — 7 running, 9 pending
+[  29.4min] started u25_unfixed_1-4_s2 (UE) — 8 running, 8 pending
+[  29.5min] finished u25_fixed_d5_s3 (rc=0) — 15/30 done
+[  29.5min] finished u25_fixed_d5_s6 (rc=0) — 16/30 done
+[  29.5min] started u25_unfixed_1-4_s3 (UE) — 7 running, 7 pending
+[  29.5min] started u25_unfixed_1-4_s4 (UE) — 8 running, 6 pending
+[  40.7min] finished u25_fixed_d5_s8 (rc=0) — 17/30 done
+[  40.7min] started u25_unfixed_1-4_s5 (UE) — 8 running, 5 pending
+[  40.8min] finished u25_fixed_d5_s9 (rc=0) — 18/30 done
+[  40.8min] started u25_unfixed_1-4_s6 (UE) — 8 running, 4 pending
+[  40.9min] finished u25_fixed_d5_s7 (rc=0) — 19/30 done
+[  40.9min] started u25_unfixed_1-4_s7 (UE) — 8 running, 3 pending
+[  41.0min] finished u25_fixed_d5_s10 (rc=0) — 20/30 done
+[  41.0min] finished u25_unfixed_1-4_s2 (rc=0) — 21/30 done
+[  41.0min] started u25_unfixed_1-4_s8 (UE) — 7 running, 2 pending
+[  41.0min] started u25_unfixed_1-4_s9 (UE) — 8 running, 1 pending
+[  41.1min] finished u25_unfixed_1-4_s1 (rc=0) — 22/30 done
+[  41.1min] started u25_unfixed_1-4_s10 (UE) — 8 running, 0 pending
+[  41.2min] finished u25_unfixed_1-4_s3 (rc=0) — 23/30 done
+[  41.2min] finished u25_unfixed_1-4_s4 (rc=0) — 24/30 done
+[  52.8min] finished u25_unfixed_1-4_s5 (rc=0) — 25/30 done
+[  52.8min] finished u25_unfixed_1-4_s6 (rc=0) — 26/30 done
+[  52.8min] finished u25_unfixed_1-4_s7 (rc=0) — 27/30 done
+[  52.8min] finished u25_unfixed_1-4_s8 (rc=0) — 28/30 done
+[  52.8min] finished u25_unfixed_1-4_s9 (rc=0) — 29/30 done
+[  52.9min] finished u25_unfixed_1-4_s10 (rc=0) — 30/30 done
+ALL DONE in 52.9 min

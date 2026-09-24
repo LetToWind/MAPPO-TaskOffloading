@@ -1,0 +1,4 @@
+"# mode=none d_value=0 d=[0,0] p=0.50 dr=0 seed=1 topology=fixed n_agents=5 obs_dim=34 n_episodes=2"
+episode,sum_reward,success,fail,mean_delay
+1,51.197508144337746,18,7,0.0
+2,42.5701786775269,17,8,0.0

@@ -1,0 +1,406 @@
+WARNING:tensorflow:From C:\Users\zengd\Desktop\论文\W-MADDPG\MADDPG_Discrete\results\exp6_original_maddpg\wd2\model_agent_discrete_maddpg.py:36: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From C:\Users\zengd\Desktop\论文\W-MADDPG\MADDPG_Discrete\results\exp6_original_maddpg\wd2\model_agent_discrete_maddpg.py:50: The name tf.placeholder_with_default is deprecated. Please use tf.compat.v1.placeholder_with_default instead.
+
+WARNING:tensorflow:From C:\Users\zengd\Desktop\论文\W-MADDPG\MADDPG_Discrete\results\exp6_original_maddpg\wd2\model_agent_discrete_maddpg.py:52: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From C:\Users\zengd\Desktop\论文\W-MADDPG\MADDPG_Discrete\results\exp6_original_maddpg\wd2\model_agent_discrete_maddpg.py:70: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From D:\tool\anaconda\envs\py37tf\lib\site-packages\tensorflow_core\python\layers\core.py:187: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:tensorflow:From C:\Users\zengd\Desktop\论文\W-MADDPG\MADDPG_Discrete\results\exp6_original_maddpg\wd2\model_agent_discrete_maddpg.py:101: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From C:\Users\zengd\Desktop\论文\W-MADDPG\MADDPG_Discrete\results\exp6_original_maddpg\wd2\model_agent_discrete_maddpg.py:102: The name tf.log is deprecated. Please use tf.math.log instead.
+
+WARNING:tensorflow:From C:\Users\zengd\Desktop\论文\W-MADDPG\MADDPG_Discrete\results\exp6_original_maddpg\wd2\model_agent_discrete_maddpg.py:64: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From C:\Users\zengd\Desktop\论文\W-MADDPG\MADDPG_Discrete\results\exp6_original_maddpg\wd2\model_agent_discrete_maddpg.py:64: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From C:\Users\zengd\Desktop\论文\W-MADDPG\MADDPG_Discrete\results\exp6_original_maddpg\wd2\model_agent_discrete_maddpg.py:66: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From maddpg_discrete.py:36: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From maddpg_discrete.py:193: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From maddpg_discrete.py:195: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2026-09-21 13:24:30.333287: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+WARNING:tensorflow:From maddpg_discrete.py:196: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From maddpg_discrete.py:201: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+Episode: 0, Explore: 1.0, Temperature: 1.5, Reward: 62.5934, success: 19, fail: 6
+Episode: 1, Explore: 0.9997, Temperature: 1.4997, Reward: 41.2081, success: 17, fail: 8
+Episode: 2, Explore: 0.9994, Temperature: 1.4994, Reward: 52.2935, success: 18, fail: 7
+Episode: 3, Explore: 0.9991, Temperature: 1.4991, Reward: 71.0741, success: 20, fail: 5
+Episode: 4, Explore: 0.9988, Temperature: 1.4988, Reward: 53.1107, success: 18, fail: 7
+Episode: 5, Explore: 0.9985, Temperature: 1.4984, Reward: 61.8724, success: 19, fail: 6
+Episode: 6, Explore: 0.9981, Temperature: 1.4981, Reward: 53.1763, success: 18, fail: 7
+Episode: 7, Explore: 0.9978, Temperature: 1.4978, Reward: 33.3932, success: 16, fail: 9
+Episode: 8, Explore: 0.9975, Temperature: 1.4975, Reward: 43.8816, success: 17, fail: 8
+Episode: 9, Explore: 0.9972, Temperature: 1.4972, Reward: 42.7298, success: 17, fail: 8
+Episode: 10, Explore: 0.9969, Temperature: 1.4969, Reward: 42.9222, success: 17, fail: 8
+Episode: 11, Explore: 0.9966, Temperature: 1.4966, Reward: 64.6286, success: 19, fail: 6
+Episode: 12, Explore: 0.9963, Temperature: 1.4963, Reward: 41.5027, success: 17, fail: 8
+Episode: 13, Explore: 0.996, Temperature: 1.4959, Reward: 53.0205, success: 18, fail: 7
+Episode: 14, Explore: 0.9957, Temperature: 1.4956, Reward: 52.7644, success: 18, fail: 7
+Episode: 15, Explore: 0.9954, Temperature: 1.4953, Reward: 71.1993, success: 20, fail: 5
+Episode: 16, Explore: 0.995, Temperature: 1.495, Reward: 52.5056, success: 18, fail: 7
+Episode: 17, Explore: 0.9947, Temperature: 1.4947, Reward: 82.7784, success: 21, fail: 4
+Episode: 18, Explore: 0.9944, Temperature: 1.4944, Reward: 62.7796, success: 19, fail: 6
+Episode: 19, Explore: 0.9941, Temperature: 1.4941, Reward: 52.442, success: 18, fail: 7
+Episode: 20, Explore: 0.9938, Temperature: 1.4937, Reward: 32.4793, success: 16, fail: 9
+Episode: 21, Explore: 0.9935, Temperature: 1.4934, Reward: 71.9962, success: 20, fail: 5
+Episode: 22, Explore: 0.9932, Temperature: 1.4931, Reward: 63.0102, success: 19, fail: 6
+Episode: 23, Explore: 0.9929, Temperature: 1.4928, Reward: 74.0403, success: 20, fail: 5
+Episode: 24, Explore: 0.9926, Temperature: 1.4925, Reward: 43.2217, success: 17, fail: 8
+Episode: 25, Explore: 0.9923, Temperature: 1.4922, Reward: 33.7397, success: 16, fail: 9
+Episode: 26, Explore: 0.992, Temperature: 1.4919, Reward: 53.1431, success: 18, fail: 7
+Episode: 27, Explore: 0.9916, Temperature: 1.4916, Reward: 51.2001, success: 18, fail: 7
+Episode: 28, Explore: 0.9913, Temperature: 1.4912, Reward: 64.6842, success: 19, fail: 6
+Episode: 29, Explore: 0.991, Temperature: 1.4909, Reward: 52.3409, success: 18, fail: 7
+Episode: 30, Explore: 0.9907, Temperature: 1.4906, Reward: 61.8416, success: 19, fail: 6
+Episode: 31, Explore: 0.9904, Temperature: 1.4903, Reward: 52.1105, success: 18, fail: 7
+Episode: 32, Explore: 0.9901, Temperature: 1.49, Reward: 53.7506, success: 18, fail: 7
+Episode: 33, Explore: 0.9898, Temperature: 1.4897, Reward: 43.353, success: 17, fail: 8
+Episode: 34, Explore: 0.9895, Temperature: 1.4894, Reward: 42.7213, success: 17, fail: 8
+Episode: 35, Explore: 0.9892, Temperature: 1.4891, Reward: 72.7726, success: 20, fail: 5
+Episode: 36, Explore: 0.9889, Temperature: 1.4888, Reward: 73.0687, success: 20, fail: 5
+Episode: 37, Explore: 0.9885, Temperature: 1.4884, Reward: 54.2258, success: 18, fail: 7
+Episode: 38, Explore: 0.9882, Temperature: 1.4881, Reward: 63.2773, success: 19, fail: 6
+Episode: 39, Explore: 0.9879, Temperature: 1.4878, Reward: 71.4775, success: 20, fail: 5
+Episode: 40, Explore: 0.9876, Temperature: 1.4875, Reward: 33.3658, success: 16, fail: 9
+Episode: 41, Explore: 0.9873, Temperature: 1.4872, Reward: 64.4007, success: 19, fail: 6
+Episode: 42, Explore: 0.987, Temperature: 1.4869, Reward: 42.1025, success: 17, fail: 8
+Episode: 43, Explore: 0.9867, Temperature: 1.4866, Reward: 63.1673, success: 19, fail: 6
+Episode: 44, Explore: 0.9864, Temperature: 1.4863, Reward: 62.3146, success: 19, fail: 6
+Episode: 45, Explore: 0.9861, Temperature: 1.4859, Reward: 62.6915, success: 19, fail: 6
+Episode: 46, Explore: 0.9858, Temperature: 1.4856, Reward: 59.1544, success: 19, fail: 6
+Episode: 47, Explore: 0.9855, Temperature: 1.4853, Reward: 72.4579, success: 20, fail: 5
+Episode: 48, Explore: 0.9851, Temperature: 1.485, Reward: 62.2116, success: 19, fail: 6
+Episode: 49, Explore: 0.9848, Temperature: 1.4847, Reward: 73.5613, success: 20, fail: 5
+Episode: 50, Explore: 0.9845, Temperature: 1.4844, Reward: 53.689, success: 18, fail: 7
+Episode: 51, Explore: 0.9842, Temperature: 1.4841, Reward: 74.5272, success: 20, fail: 5
+Episode: 52, Explore: 0.9839, Temperature: 1.4837, Reward: 42.4833, success: 17, fail: 8
+Episode: 53, Explore: 0.9836, Temperature: 1.4834, Reward: 61.8809, success: 19, fail: 6
+Episode: 54, Explore: 0.9833, Temperature: 1.4831, Reward: 62.808, success: 19, fail: 6
+Episode: 55, Explore: 0.983, Temperature: 1.4828, Reward: 61.6737, success: 19, fail: 6
+Episode: 56, Explore: 0.9827, Temperature: 1.4825, Reward: 63.7567, success: 19, fail: 6
+Episode: 57, Explore: 0.9824, Temperature: 1.4822, Reward: 52.1699, success: 18, fail: 7
+Episode: 58, Explore: 0.9821, Temperature: 1.4819, Reward: 71.5563, success: 20, fail: 5
+Episode: 59, Explore: 0.9817, Temperature: 1.4816, Reward: 73.5483, success: 20, fail: 5
+Episode: 60, Explore: 0.9814, Temperature: 1.4812, Reward: 42.9483, success: 17, fail: 8
+Episode: 61, Explore: 0.9811, Temperature: 1.4809, Reward: 63.186, success: 19, fail: 6
+Episode: 62, Explore: 0.9808, Temperature: 1.4806, Reward: 82.1658, success: 21, fail: 4
+Episode: 63, Explore: 0.9805, Temperature: 1.4803, Reward: 62.5761, success: 19, fail: 6
+Episode: 64, Explore: 0.9802, Temperature: 1.48, Reward: 61.7041, success: 19, fail: 6
+Episode: 65, Explore: 0.9799, Temperature: 1.4797, Reward: 61.892, success: 19, fail: 6
+Episode: 66, Explore: 0.9796, Temperature: 1.4794, Reward: 93.0823, success: 22, fail: 3
+Episode: 67, Explore: 0.9793, Temperature: 1.4791, Reward: 73.9793, success: 20, fail: 5
+Episode: 68, Explore: 0.979, Temperature: 1.4788, Reward: 33.0099, success: 16, fail: 9
+Episode: 69, Explore: 0.9786, Temperature: 1.4784, Reward: 21.5341, success: 15, fail: 10
+Episode: 70, Explore: 0.9783, Temperature: 1.4781, Reward: 62.573, success: 19, fail: 6
+Episode: 71, Explore: 0.978, Temperature: 1.4778, Reward: 51.8892, success: 18, fail: 7
+Episode: 72, Explore: 0.9777, Temperature: 1.4775, Reward: 64.7824, success: 19, fail: 6
+Episode: 73, Explore: 0.9774, Temperature: 1.4772, Reward: 52.0541, success: 18, fail: 7
+Episode: 74, Explore: 0.9771, Temperature: 1.4769, Reward: 62.1412, success: 19, fail: 6
+Episode: 75, Explore: 0.9768, Temperature: 1.4766, Reward: 43.2817, success: 17, fail: 8
+Episode: 76, Explore: 0.9765, Temperature: 1.4763, Reward: 61.8618, success: 19, fail: 6
+Episode: 77, Explore: 0.9762, Temperature: 1.4759, Reward: 50.742, success: 18, fail: 7
+Episode: 78, Explore: 0.9759, Temperature: 1.4756, Reward: 72.1076, success: 20, fail: 5
+Episode: 79, Explore: 0.9756, Temperature: 1.4753, Reward: 42.2917, success: 17, fail: 8
+Episode: 80, Explore: 0.9752, Temperature: 1.475, Reward: 52.3564, success: 18, fail: 7
+Episode: 81, Explore: 0.9749, Temperature: 1.4747, Reward: 62.5081, success: 19, fail: 6
+Episode: 82, Explore: 0.9746, Temperature: 1.4744, Reward: 95.2832, success: 22, fail: 3
+Episode: 83, Explore: 0.9743, Temperature: 1.4741, Reward: 75.054, success: 20, fail: 5
+Episode: 84, Explore: 0.974, Temperature: 1.4737, Reward: 62.8675, success: 19, fail: 6
+Episode: 85, Explore: 0.9737, Temperature: 1.4734, Reward: 43.626, success: 17, fail: 8
+Episode: 86, Explore: 0.9734, Temperature: 1.4731, Reward: 72.4924, success: 20, fail: 5
+Episode: 87, Explore: 0.9731, Temperature: 1.4728, Reward: 70.8378, success: 20, fail: 5
+Episode: 88, Explore: 0.9728, Temperature: 1.4725, Reward: 72.3838, success: 20, fail: 5
+Episode: 89, Explore: 0.9725, Temperature: 1.4722, Reward: 60.4289, success: 19, fail: 6
+Episode: 90, Explore: 0.9721, Temperature: 1.4719, Reward: 61.9837, success: 19, fail: 6
+Episode: 91, Explore: 0.9718, Temperature: 1.4716, Reward: 62.2072, success: 19, fail: 6
+Episode: 92, Explore: 0.9715, Temperature: 1.4712, Reward: 30.4897, success: 16, fail: 9
+Episode: 93, Explore: 0.9712, Temperature: 1.4709, Reward: 33.6144, success: 16, fail: 9
+Episode: 94, Explore: 0.9709, Temperature: 1.4706, Reward: 42.1459, success: 17, fail: 8
+Episode: 95, Explore: 0.9706, Temperature: 1.4703, Reward: 52.2541, success: 18, fail: 7
+Episode: 96, Explore: 0.9703, Temperature: 1.47, Reward: 82.0423, success: 21, fail: 4
+Episode: 97, Explore: 0.97, Temperature: 1.4697, Reward: 62.862, success: 19, fail: 6
+Episode: 98, Explore: 0.9697, Temperature: 1.4694, Reward: 33.0354, success: 16, fail: 9
+Episode: 99, Explore: 0.9694, Temperature: 1.4691, Reward: 82.3619, success: 21, fail: 4
+Episode: 100, Explore: 0.9691, Temperature: 1.4688, Reward: 42.6392, success: 17, fail: 8
+Episode: 101, Explore: 0.9687, Temperature: 1.4684, Reward: 81.1918, success: 21, fail: 4
+Episode: 102, Explore: 0.9684, Temperature: 1.4681, Reward: 62.8338, success: 19, fail: 6
+Episode: 103, Explore: 0.9681, Temperature: 1.4678, Reward: 62.7124, success: 19, fail: 6
+Episode: 104, Explore: 0.9678, Temperature: 1.4675, Reward: 54.8021, success: 18, fail: 7
+Episode: 105, Explore: 0.9675, Temperature: 1.4672, Reward: 53.3313, success: 18, fail: 7
+Episode: 106, Explore: 0.9672, Temperature: 1.4669, Reward: 31.1033, success: 16, fail: 9
+Episode: 107, Explore: 0.9669, Temperature: 1.4666, Reward: 60.9254, success: 19, fail: 6
+Episode: 108, Explore: 0.9666, Temperature: 1.4663, Reward: 22.9534, success: 15, fail: 10
+Episode: 109, Explore: 0.9663, Temperature: 1.4659, Reward: 64.0676, success: 19, fail: 6
+Episode: 110, Explore: 0.966, Temperature: 1.4656, Reward: 54.1709, success: 18, fail: 7
+Episode: 111, Explore: 0.9656, Temperature: 1.4653, Reward: 72.4195, success: 20, fail: 5
+Episode: 112, Explore: 0.9653, Temperature: 1.465, Reward: 52.7135, success: 18, fail: 7
+Episode: 113, Explore: 0.965, Temperature: 1.4647, Reward: 51.6041, success: 18, fail: 7
+Episode: 114, Explore: 0.9647, Temperature: 1.4644, Reward: 84.4335, success: 21, fail: 4
+Episode: 115, Explore: 0.9644, Temperature: 1.4641, Reward: 12.2737, success: 14, fail: 11
+Episode: 116, Explore: 0.9641, Temperature: 1.4638, Reward: 62.9112, success: 19, fail: 6
+Episode: 117, Explore: 0.9638, Temperature: 1.4634, Reward: 82.6361, success: 21, fail: 4
+Episode: 118, Explore: 0.9635, Temperature: 1.4631, Reward: 44.0152, success: 17, fail: 8
+Episode: 119, Explore: 0.9632, Temperature: 1.4628, Reward: 61.2709, success: 19, fail: 6
+Episode: 120, Explore: 0.9629, Temperature: 1.4625, Reward: 74.4942, success: 20, fail: 5
+Episode: 121, Explore: 0.9626, Temperature: 1.4622, Reward: 53.3176, success: 18, fail: 7
+Episode: 122, Explore: 0.9622, Temperature: 1.4619, Reward: 73.1378, success: 20, fail: 5
+Episode: 123, Explore: 0.9619, Temperature: 1.4616, Reward: 52.8919, success: 18, fail: 7
+Episode: 124, Explore: 0.9616, Temperature: 1.4612, Reward: 51.403, success: 18, fail: 7
+Episode: 125, Explore: 0.9613, Temperature: 1.4609, Reward: 61.4753, success: 19, fail: 6
+Episode: 126, Explore: 0.961, Temperature: 1.4606, Reward: 69.5849, success: 20, fail: 5
+Episode: 127, Explore: 0.9607, Temperature: 1.4603, Reward: 53.003, success: 18, fail: 7
+Episode: 128, Explore: 0.9604, Temperature: 1.46, Reward: 93.1404, success: 22, fail: 3
+Episode: 129, Explore: 0.9601, Temperature: 1.4597, Reward: 52.5583, success: 18, fail: 7
+Episode: 130, Explore: 0.9598, Temperature: 1.4594, Reward: 62.0844, success: 19, fail: 6
+Episode: 131, Explore: 0.9595, Temperature: 1.4591, Reward: 43.723, success: 17, fail: 8
+Episode: 132, Explore: 0.9591, Temperature: 1.4587, Reward: 62.9911, success: 19, fail: 6
+Episode: 133, Explore: 0.9588, Temperature: 1.4584, Reward: 52.5013, success: 18, fail: 7
+Episode: 134, Explore: 0.9585, Temperature: 1.4581, Reward: 72.7024, success: 20, fail: 5
+Episode: 135, Explore: 0.9582, Temperature: 1.4578, Reward: 71.9, success: 20, fail: 5
+Episode: 136, Explore: 0.9579, Temperature: 1.4575, Reward: 61.2725, success: 19, fail: 6
+Episode: 137, Explore: 0.9576, Temperature: 1.4572, Reward: 42.7377, success: 17, fail: 8
+Episode: 138, Explore: 0.9573, Temperature: 1.4569, Reward: 93.9802, success: 22, fail: 3
+Episode: 139, Explore: 0.957, Temperature: 1.4566, Reward: 64.8085, success: 19, fail: 6
+Episode: 140, Explore: 0.9567, Temperature: 1.4563, Reward: 64.0844, success: 19, fail: 6
+Episode: 141, Explore: 0.9564, Temperature: 1.4559, Reward: 81.794, success: 21, fail: 4
+Episode: 142, Explore: 0.9561, Temperature: 1.4556, Reward: 73.8653, success: 20, fail: 5
+Episode: 143, Explore: 0.9557, Temperature: 1.4553, Reward: 42.4089, success: 17, fail: 8
+Episode: 144, Explore: 0.9554, Temperature: 1.455, Reward: 71.9392, success: 20, fail: 5
+Episode: 145, Explore: 0.9551, Temperature: 1.4547, Reward: 62.4932, success: 19, fail: 6
+Episode: 146, Explore: 0.9548, Temperature: 1.4544, Reward: 71.1696, success: 20, fail: 5
+Episode: 147, Explore: 0.9545, Temperature: 1.4541, Reward: 62.4267, success: 19, fail: 6
+Episode: 148, Explore: 0.9542, Temperature: 1.4538, Reward: 42.858, success: 17, fail: 8
+Episode: 149, Explore: 0.9539, Temperature: 1.4534, Reward: 51.5192, success: 18, fail: 7
+Episode: 150, Explore: 0.9536, Temperature: 1.4531, Reward: 54.1324, success: 18, fail: 7
+Episode: 151, Explore: 0.9533, Temperature: 1.4528, Reward: 62.9857, success: 19, fail: 6
+Episode: 152, Explore: 0.953, Temperature: 1.4525, Reward: 62.836, success: 19, fail: 6
+Episode: 153, Explore: 0.9527, Temperature: 1.4522, Reward: 74.2912, success: 20, fail: 5
+Episode: 154, Explore: 0.9523, Temperature: 1.4519, Reward: 53.4929, success: 18, fail: 7
+Episode: 155, Explore: 0.952, Temperature: 1.4516, Reward: 63.4581, success: 19, fail: 6
+Episode: 156, Explore: 0.9517, Temperature: 1.4512, Reward: 52.8501, success: 18, fail: 7
+Episode: 157, Explore: 0.9514, Temperature: 1.4509, Reward: 42.6407, success: 17, fail: 8
+Episode: 158, Explore: 0.9511, Temperature: 1.4506, Reward: 83.9634, success: 21, fail: 4
+Episode: 159, Explore: 0.9508, Temperature: 1.4503, Reward: 63.4267, success: 19, fail: 6
+Episode: 160, Explore: 0.9505, Temperature: 1.45, Reward: 49.5142, success: 18, fail: 7
+Episode: 161, Explore: 0.9502, Temperature: 1.4497, Reward: 53.5049, success: 18, fail: 7
+Episode: 162, Explore: 0.9499, Temperature: 1.4494, Reward: 42.1164, success: 17, fail: 8
+Episode: 163, Explore: 0.9496, Temperature: 1.4491, Reward: 73.0905, success: 20, fail: 5
+Episode: 164, Explore: 0.9492, Temperature: 1.4487, Reward: 53.2434, success: 18, fail: 7
+Episode: 165, Explore: 0.9489, Temperature: 1.4484, Reward: 63.7434, success: 19, fail: 6
+Episode: 166, Explore: 0.9486, Temperature: 1.4481, Reward: 43.3821, success: 17, fail: 8
+Episode: 167, Explore: 0.9483, Temperature: 1.4478, Reward: 82.8955, success: 21, fail: 4
+Episode: 168, Explore: 0.948, Temperature: 1.4475, Reward: 53.4422, success: 18, fail: 7
+Episode: 169, Explore: 0.9477, Temperature: 1.4472, Reward: 33.5679, success: 16, fail: 9
+Episode: 170, Explore: 0.9474, Temperature: 1.4469, Reward: 43.2958, success: 17, fail: 8
+Episode: 171, Explore: 0.9471, Temperature: 1.4466, Reward: 73.2857, success: 20, fail: 5
+Episode: 172, Explore: 0.9468, Temperature: 1.4463, Reward: 42.6995, success: 17, fail: 8
+Episode: 173, Explore: 0.9465, Temperature: 1.4459, Reward: 72.8737, success: 20, fail: 5
+Episode: 174, Explore: 0.9462, Temperature: 1.4456, Reward: 51.4224, success: 18, fail: 7
+Episode: 175, Explore: 0.9458, Temperature: 1.4453, Reward: 52.7668, success: 18, fail: 7
+Episode: 176, Explore: 0.9455, Temperature: 1.445, Reward: 41.3071, success: 17, fail: 8
+Episode: 177, Explore: 0.9452, Temperature: 1.4447, Reward: 63.1207, success: 19, fail: 6
+Episode: 178, Explore: 0.9449, Temperature: 1.4444, Reward: 50.393, success: 18, fail: 7
+Episode: 179, Explore: 0.9446, Temperature: 1.4441, Reward: 51.6885, success: 18, fail: 7
+Episode: 180, Explore: 0.9443, Temperature: 1.4438, Reward: 63.6867, success: 19, fail: 6
+Episode: 181, Explore: 0.944, Temperature: 1.4434, Reward: 70.8292, success: 20, fail: 5
+Episode: 182, Explore: 0.9437, Temperature: 1.4431, Reward: 62.689, success: 19, fail: 6
+Episode: 183, Explore: 0.9434, Temperature: 1.4428, Reward: 63.2464, success: 19, fail: 6
+Episode: 184, Explore: 0.9431, Temperature: 1.4425, Reward: 52.0686, success: 18, fail: 7
+Episode: 185, Explore: 0.9427, Temperature: 1.4422, Reward: 53.1852, success: 18, fail: 7
+Episode: 186, Explore: 0.9424, Temperature: 1.4419, Reward: 71.3828, success: 20, fail: 5
+Episode: 187, Explore: 0.9421, Temperature: 1.4416, Reward: 92.9421, success: 22, fail: 3
+Episode: 188, Explore: 0.9418, Temperature: 1.4412, Reward: 54.5384, success: 18, fail: 7
+Episode: 189, Explore: 0.9415, Temperature: 1.4409, Reward: 32.6071, success: 16, fail: 9
+Episode: 190, Explore: 0.9412, Temperature: 1.4406, Reward: 64.7144, success: 19, fail: 6
+Episode: 191, Explore: 0.9409, Temperature: 1.4403, Reward: 53.3223, success: 18, fail: 7
+Episode: 192, Explore: 0.9406, Temperature: 1.44, Reward: 70.3702, success: 20, fail: 5
+Episode: 193, Explore: 0.9403, Temperature: 1.4397, Reward: 84.1767, success: 21, fail: 4
+Episode: 194, Explore: 0.94, Temperature: 1.4394, Reward: 62.8297, success: 19, fail: 6
+Episode: 195, Explore: 0.9397, Temperature: 1.4391, Reward: 51.7865, success: 18, fail: 7
+Episode: 196, Explore: 0.9393, Temperature: 1.4387, Reward: 51.8792, success: 18, fail: 7
+Episode: 197, Explore: 0.939, Temperature: 1.4384, Reward: 51.3673, success: 18, fail: 7
+Episode: 198, Explore: 0.9387, Temperature: 1.4381, Reward: 63.7901, success: 19, fail: 6
+Episode: 199, Explore: 0.9384, Temperature: 1.4378, Reward: 51.1824, success: 18, fail: 7
+Episode: 200, Explore: 0.9381, Temperature: 1.4375, Reward: 72.916, success: 20, fail: 5
+Episode: 201, Explore: 0.9378, Temperature: 1.4372, Reward: 63.81, success: 19, fail: 6
+Episode: 202, Explore: 0.9375, Temperature: 1.4369, Reward: 64.4049, success: 19, fail: 6
+Episode: 203, Explore: 0.9372, Temperature: 1.4366, Reward: 73.2867, success: 20, fail: 5
+Episode: 204, Explore: 0.9369, Temperature: 1.4363, Reward: 42.1256, success: 17, fail: 8
+Episode: 205, Explore: 0.9366, Temperature: 1.4359, Reward: 82.0225, success: 21, fail: 4
+Episode: 206, Explore: 0.9362, Temperature: 1.4356, Reward: 72.221, success: 20, fail: 5
+Episode: 207, Explore: 0.9359, Temperature: 1.4353, Reward: 72.3514, success: 20, fail: 5
+Episode: 208, Explore: 0.9356, Temperature: 1.435, Reward: 52.7887, success: 18, fail: 7
+Episode: 209, Explore: 0.9353, Temperature: 1.4347, Reward: 53.7698, success: 18, fail: 7
+Episode: 210, Explore: 0.935, Temperature: 1.4344, Reward: 43.8369, success: 17, fail: 8
+Episode: 211, Explore: 0.9347, Temperature: 1.4341, Reward: 82.5526, success: 21, fail: 4
+Episode: 212, Explore: 0.9344, Temperature: 1.4338, Reward: 62.8366, success: 19, fail: 6
+Episode: 213, Explore: 0.9341, Temperature: 1.4334, Reward: 53.9097, success: 18, fail: 7
+Episode: 214, Explore: 0.9338, Temperature: 1.4331, Reward: 63.6678, success: 19, fail: 6
+Episode: 215, Explore: 0.9335, Temperature: 1.4328, Reward: 54.1016, success: 18, fail: 7
+Episode: 216, Explore: 0.9332, Temperature: 1.4325, Reward: 74.085, success: 20, fail: 5
+Episode: 217, Explore: 0.9328, Temperature: 1.4322, Reward: 53.3877, success: 18, fail: 7
+Episode: 218, Explore: 0.9325, Temperature: 1.4319, Reward: 41.886, success: 17, fail: 8
+Episode: 219, Explore: 0.9322, Temperature: 1.4316, Reward: 63.2857, success: 19, fail: 6
+Episode: 220, Explore: 0.9319, Temperature: 1.4312, Reward: 61.7667, success: 19, fail: 6
+Episode: 221, Explore: 0.9316, Temperature: 1.4309, Reward: 52.0247, success: 18, fail: 7
+Episode: 222, Explore: 0.9313, Temperature: 1.4306, Reward: 62.4157, success: 19, fail: 6
+Episode: 223, Explore: 0.931, Temperature: 1.4303, Reward: 42.7793, success: 17, fail: 8
+Episode: 224, Explore: 0.9307, Temperature: 1.43, Reward: 74.1236, success: 20, fail: 5
+Episode: 225, Explore: 0.9304, Temperature: 1.4297, Reward: 93.367, success: 22, fail: 3
+Episode: 226, Explore: 0.9301, Temperature: 1.4294, Reward: 41.0564, success: 17, fail: 8
+Episode: 227, Explore: 0.9297, Temperature: 1.4291, Reward: 53.1234, success: 18, fail: 7
+Episode: 228, Explore: 0.9294, Temperature: 1.4287, Reward: 61.7779, success: 19, fail: 6
+Episode: 229, Explore: 0.9291, Temperature: 1.4284, Reward: 52.7359, success: 18, fail: 7
+Episode: 230, Explore: 0.9288, Temperature: 1.4281, Reward: 73.3252, success: 20, fail: 5
+Episode: 231, Explore: 0.9285, Temperature: 1.4278, Reward: 61.9195, success: 19, fail: 6
+Episode: 232, Explore: 0.9282, Temperature: 1.4275, Reward: 41.7573, success: 17, fail: 8
+Episode: 233, Explore: 0.9279, Temperature: 1.4272, Reward: 73.2131, success: 20, fail: 5
+Episode: 234, Explore: 0.9276, Temperature: 1.4269, Reward: 32.6879, success: 16, fail: 9
+Episode: 235, Explore: 0.9273, Temperature: 1.4266, Reward: 62.4829, success: 19, fail: 6
+Episode: 236, Explore: 0.927, Temperature: 1.4263, Reward: 50.8279, success: 18, fail: 7
+Episode: 237, Explore: 0.9267, Temperature: 1.4259, Reward: 42.8703, success: 17, fail: 8
+Episode: 238, Explore: 0.9263, Temperature: 1.4256, Reward: 62.7273, success: 19, fail: 6
+Episode: 239, Explore: 0.926, Temperature: 1.4253, Reward: 62.0851, success: 19, fail: 6
+Episode: 240, Explore: 0.9257, Temperature: 1.425, Reward: 82.7337, success: 21, fail: 4
+Episode: 241, Explore: 0.9254, Temperature: 1.4247, Reward: 52.9865, success: 18, fail: 7
+Episode: 242, Explore: 0.9251, Temperature: 1.4244, Reward: 72.524, success: 20, fail: 5
+Episode: 243, Explore: 0.9248, Temperature: 1.4241, Reward: 79.7491, success: 21, fail: 4
+Episode: 244, Explore: 0.9245, Temperature: 1.4238, Reward: 52.5244, success: 18, fail: 7
+Episode: 245, Explore: 0.9242, Temperature: 1.4234, Reward: 50.582, success: 18, fail: 7
+Episode: 246, Explore: 0.9239, Temperature: 1.4231, Reward: 51.9618, success: 18, fail: 7
+Episode: 247, Explore: 0.9236, Temperature: 1.4228, Reward: 73.4868, success: 20, fail: 5
+Episode: 248, Explore: 0.9233, Temperature: 1.4225, Reward: 41.3982, success: 17, fail: 8
+Episode: 249, Explore: 0.9229, Temperature: 1.4222, Reward: 54.0865, success: 18, fail: 7
+Episode: 250, Explore: 0.9226, Temperature: 1.4219, Reward: 72.1787, success: 20, fail: 5
+Episode: 251, Explore: 0.9223, Temperature: 1.4216, Reward: 53.3584, success: 18, fail: 7
+Episode: 252, Explore: 0.922, Temperature: 1.4212, Reward: 72.5544, success: 20, fail: 5
+Episode: 253, Explore: 0.9217, Temperature: 1.4209, Reward: 73.0976, success: 20, fail: 5
+Episode: 254, Explore: 0.9214, Temperature: 1.4206, Reward: 62.9891, success: 19, fail: 6
+Episode: 255, Explore: 0.9211, Temperature: 1.4203, Reward: 83.3016, success: 21, fail: 4
+Episode: 256, Explore: 0.9208, Temperature: 1.42, Reward: 62.574, success: 19, fail: 6
+Episode: 257, Explore: 0.9205, Temperature: 1.4197, Reward: 71.0705, success: 20, fail: 5
+Episode: 258, Explore: 0.9202, Temperature: 1.4194, Reward: 62.7144, success: 19, fail: 6
+Episode: 259, Explore: 0.9198, Temperature: 1.4191, Reward: 52.027, success: 18, fail: 7
+Episode: 260, Explore: 0.9195, Temperature: 1.4187, Reward: 51.3895, success: 18, fail: 7
+Episode: 261, Explore: 0.9192, Temperature: 1.4184, Reward: 52.3115, success: 18, fail: 7
+Episode: 262, Explore: 0.9189, Temperature: 1.4181, Reward: 62.6552, success: 19, fail: 6
+Episode: 263, Explore: 0.9186, Temperature: 1.4178, Reward: 83.9625, success: 21, fail: 4
+Episode: 264, Explore: 0.9183, Temperature: 1.4175, Reward: 51.0088, success: 18, fail: 7
+Episode: 265, Explore: 0.918, Temperature: 1.4172, Reward: 63.6846, success: 19, fail: 6
+Episode: 266, Explore: 0.9177, Temperature: 1.4169, Reward: 51.5478, success: 18, fail: 7
+Episode: 267, Explore: 0.9174, Temperature: 1.4166, Reward: 63.0274, success: 19, fail: 6
+Episode: 268, Explore: 0.9171, Temperature: 1.4163, Reward: 63.2269, success: 19, fail: 6
+Episode: 269, Explore: 0.9168, Temperature: 1.4159, Reward: 53.5536, success: 18, fail: 7
+Episode: 270, Explore: 0.9164, Temperature: 1.4156, Reward: 63.7477, success: 19, fail: 6
+Episode: 271, Explore: 0.9161, Temperature: 1.4153, Reward: 51.9745, success: 18, fail: 7
+Episode: 272, Explore: 0.9158, Temperature: 1.415, Reward: 35.8642, success: 16, fail: 9
+Episode: 273, Explore: 0.9155, Temperature: 1.4147, Reward: 41.1042, success: 17, fail: 8
+Episode: 274, Explore: 0.9152, Temperature: 1.4144, Reward: 43.165, success: 17, fail: 8
+Episode: 275, Explore: 0.9149, Temperature: 1.4141, Reward: 61.8926, success: 19, fail: 6
+Episode: 276, Explore: 0.9146, Temperature: 1.4138, Reward: 63.5572, success: 19, fail: 6
+Episode: 277, Explore: 0.9143, Temperature: 1.4134, Reward: 61.1251, success: 19, fail: 6
+Episode: 278, Explore: 0.914, Temperature: 1.4131, Reward: 93.3434, success: 22, fail: 3
+Episode: 279, Explore: 0.9137, Temperature: 1.4128, Reward: 73.6218, success: 20, fail: 5
+Episode: 280, Explore: 0.9133, Temperature: 1.4125, Reward: 53.0208, success: 18, fail: 7
+Episode: 281, Explore: 0.913, Temperature: 1.4122, Reward: 52.8376, success: 18, fail: 7
+Episode: 282, Explore: 0.9127, Temperature: 1.4119, Reward: 61.798, success: 19, fail: 6
+Episode: 283, Explore: 0.9124, Temperature: 1.4116, Reward: 62.6348, success: 19, fail: 6
+Episode: 284, Explore: 0.9121, Temperature: 1.4112, Reward: 51.3736, success: 18, fail: 7
+Episode: 285, Explore: 0.9118, Temperature: 1.4109, Reward: 81.7818, success: 21, fail: 4
+Episode: 286, Explore: 0.9115, Temperature: 1.4106, Reward: 43.1893, success: 17, fail: 8
+Episode: 287, Explore: 0.9112, Temperature: 1.4103, Reward: 64.0617, success: 19, fail: 6
+Episode: 288, Explore: 0.9109, Temperature: 1.41, Reward: 91.2886, success: 22, fail: 3
+Episode: 289, Explore: 0.9106, Temperature: 1.4097, Reward: 51.4395, success: 18, fail: 7
+Episode: 290, Explore: 0.9103, Temperature: 1.4094, Reward: 94.4263, success: 22, fail: 3
+Episode: 291, Explore: 0.9099, Temperature: 1.4091, Reward: 41.6782, success: 17, fail: 8
+Episode: 292, Explore: 0.9096, Temperature: 1.4087, Reward: 52.5715, success: 18, fail: 7
+Episode: 293, Explore: 0.9093, Temperature: 1.4084, Reward: 62.5371, success: 19, fail: 6
+Episode: 294, Explore: 0.909, Temperature: 1.4081, Reward: 61.9206, success: 19, fail: 6
+Episode: 295, Explore: 0.9087, Temperature: 1.4078, Reward: 53.3741, success: 18, fail: 7
+Episode: 296, Explore: 0.9084, Temperature: 1.4075, Reward: 64.9447, success: 19, fail: 6
+Episode: 297, Explore: 0.9081, Temperature: 1.4072, Reward: 43.3603, success: 17, fail: 8
+Episode: 298, Explore: 0.9078, Temperature: 1.4069, Reward: 52.1923, success: 18, fail: 7
+Episode: 299, Explore: 0.9075, Temperature: 1.4066, Reward: 71.6257, success: 20, fail: 5
+Episode: 300, Explore: 0.9072, Temperature: 1.4062, Reward: 32.9114, success: 16, fail: 9
+Episode: 301, Explore: 0.9068, Temperature: 1.4059, Reward: 42.9652, success: 17, fail: 8
+Episode: 302, Explore: 0.9065, Temperature: 1.4056, Reward: 70.4806, success: 20, fail: 5
+Episode: 303, Explore: 0.9062, Temperature: 1.4053, Reward: 73.2493, success: 20, fail: 5
+Episode: 304, Explore: 0.9059, Temperature: 1.405, Reward: 32.2963, success: 16, fail: 9
+Episode: 305, Explore: 0.9056, Temperature: 1.4047, Reward: 53.8848, success: 18, fail: 7
+Episode: 306, Explore: 0.9053, Temperature: 1.4044, Reward: 41.6949, success: 17, fail: 8
+Episode: 307, Explore: 0.905, Temperature: 1.4041, Reward: 43.7544, success: 17, fail: 8
+Episode: 308, Explore: 0.9047, Temperature: 1.4038, Reward: 72.6351, success: 20, fail: 5
+Episode: 309, Explore: 0.9044, Temperature: 1.4034, Reward: 74.6757, success: 20, fail: 5
+Episode: 310, Explore: 0.9041, Temperature: 1.4031, Reward: 41.0672, success: 17, fail: 8
+Episode: 311, Explore: 0.9038, Temperature: 1.4028, Reward: 73.0178, success: 20, fail: 5
+Episode: 312, Explore: 0.9034, Temperature: 1.4025, Reward: 52.3911, success: 18, fail: 7
+Episode: 313, Explore: 0.9031, Temperature: 1.4022, Reward: 64.1631, success: 19, fail: 6
+Episode: 314, Explore: 0.9028, Temperature: 1.4019, Reward: 71.0749, success: 20, fail: 5
+Episode: 315, Explore: 0.9025, Temperature: 1.4016, Reward: 74.2006, success: 20, fail: 5
+Episode: 316, Explore: 0.9022, Temperature: 1.4013, Reward: 72.0215, success: 20, fail: 5
+Episode: 317, Explore: 0.9019, Temperature: 1.4009, Reward: 61.7218, success: 19, fail: 6
+Episode: 318, Explore: 0.9016, Temperature: 1.4006, Reward: 72.0532, success: 20, fail: 5
+Episode: 319, Explore: 0.9013, Temperature: 1.4003, Reward: 63.1027, success: 19, fail: 6
+Episode: 320, Explore: 0.901, Temperature: 1.4, Reward: 42.4092, success: 17, fail: 8
+Episode: 321, Explore: 0.9007, Temperature: 1.3997, Reward: 83.4214, success: 21, fail: 4
+Episode: 322, Explore: 0.9004, Temperature: 1.3994, Reward: 64.3839, success: 19, fail: 6
+Episode: 323, Explore: 0.9, Temperature: 1.3991, Reward: 62.6231, success: 19, fail: 6
+Episode: 324, Explore: 0.8997, Temperature: 1.3987, Reward: 64.084, success: 19, fail: 6
+Episode: 325, Explore: 0.8994, Temperature: 1.3984, Reward: 72.9625, success: 20, fail: 5
+Episode: 326, Explore: 0.8991, Temperature: 1.3981, Reward: 73.1064, success: 20, fail: 5
+Episode: 327, Explore: 0.8988, Temperature: 1.3978, Reward: 60.6033, success: 19, fail: 6
+Episode: 328, Explore: 0.8985, Temperature: 1.3975, Reward: 71.1445, success: 20, fail: 5
+Episode: 329, Explore: 0.8982, Temperature: 1.3972, Reward: 42.6144, success: 17, fail: 8
+Episode: 330, Explore: 0.8979, Temperature: 1.3969, Reward: 82.7083, success: 21, fail: 4
+Episode: 331, Explore: 0.8976, Temperature: 1.3966, Reward: 51.4215, success: 18, fail: 7
+Episode: 332, Explore: 0.8973, Temperature: 1.3962, Reward: 73.9376, success: 20, fail: 5
+Episode: 333, Explore: 0.8969, Temperature: 1.3959, Reward: 50.7277, success: 18, fail: 7
+Episode: 334, Explore: 0.8966, Temperature: 1.3956, Reward: 64.0208, success: 19, fail: 6
+Episode: 335, Explore: 0.8963, Temperature: 1.3953, Reward: 20.0523, success: 15, fail: 10
+Episode: 336, Explore: 0.896, Temperature: 1.395, Reward: 52.5428, success: 18, fail: 7
+Episode: 337, Explore: 0.8957, Temperature: 1.3947, Reward: 82.756, success: 21, fail: 4
+Episode: 338, Explore: 0.8954, Temperature: 1.3944, Reward: 82.5814, success: 21, fail: 4
+Episode: 339, Explore: 0.8951, Temperature: 1.3941, Reward: 63.5555, success: 19, fail: 6
+Episode: 340, Explore: 0.8948, Temperature: 1.3938, Reward: 44.1902, success: 17, fail: 8
+Episode: 341, Explore: 0.8945, Temperature: 1.3934, Reward: 51.8544, success: 18, fail: 7
+Episode: 342, Explore: 0.8942, Temperature: 1.3931, Reward: 60.7006, success: 19, fail: 6
+Episode: 343, Explore: 0.8939, Temperature: 1.3928, Reward: 52.907, success: 18, fail: 7
+Episode: 344, Explore: 0.8935, Temperature: 1.3925, Reward: 64.4196, success: 19, fail: 6
+Episode: 345, Explore: 0.8932, Temperature: 1.3922, Reward: 33.2046, success: 16, fail: 9
+Episode: 346, Explore: 0.8929, Temperature: 1.3919, Reward: 73.366, success: 20, fail: 5
+Episode: 347, Explore: 0.8926, Temperature: 1.3916, Reward: 54.9348, success: 18, fail: 7
+Episode: 348, Explore: 0.8923, Temperature: 1.3913, Reward: 73.0962, success: 20, fail: 5
+Episode: 349, Explore: 0.892, Temperature: 1.3909, Reward: 44.276, success: 17, fail: 8
+Episode: 350, Explore: 0.8917, Temperature: 1.3906, Reward: 63.103, success: 19, fail: 6
+Episode: 351, Explore: 0.8914, Temperature: 1.3903, Reward: 63.0451, success: 19, fail: 6
+Episode: 352, Explore: 0.8911, Temperature: 1.39, Reward: 53.5485, success: 18, fail: 7
+Episode: 353, Explore: 0.8908, Temperature: 1.3897, Reward: 60.7215, success: 19, fail: 6
+Episode: 354, Explore: 0.8904, Temperature: 1.3894, Reward: 33.3483, success: 16, fail: 9
+Episode: 355, Explore: 0.8901, Temperature: 1.3891, Reward: 63.6905, success: 19, fail: 6
+Episode: 356, Explore: 0.8898, Temperature: 1.3887, Reward: 71.6764, success: 20, fail: 5
+Episode: 357, Explore: 0.8895, Temperature: 1.3884, Reward: 45.2336, success: 17, fail: 8
+Episode: 358, Explore: 0.8892, Temperature: 1.3881, Reward: 54.5425, success: 18, fail: 7
+Episode: 359, Explore: 0.8889, Temperature: 1.3878, Reward: 70.979, success: 20, fail: 5
+Episode: 360, Explore: 0.8886, Temperature: 1.3875, Reward: 71.5445, success: 20, fail: 5
+Episode: 361, Explore: 0.8883, Temperature: 1.3872, Reward: 62.0948, success: 19, fail: 6
+Episode: 362, Explore: 0.888, Temperature: 1.3869, Reward: 73.3219, success: 20, fail: 5
+Episode: 363, Explore: 0.8877, Temperature: 1.3866, Reward: 41.9327, success: 17, fail: 8
+Episode: 364, Explore: 0.8874, Temperature: 1.3862, Reward: 41.9898, success: 17, fail: 8

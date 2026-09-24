@@ -1,0 +1,34 @@
+launching 16 runs into C:\Users\zengd\Desktop\论文\W-MADDPG\MADDPG_Discrete\results\exp4_sealing (max_parallel=8)
+[   0.0min] started c3_none_s4 (A) — 1 running, 15 pending
+[   0.0min] started c3_unfixed_1-4_s4 (A) — 2 running, 14 pending
+[   0.0min] started c3_none_s5 (A) — 3 running, 13 pending
+[   0.0min] started c3_unfixed_1-4_s5 (A) — 4 running, 12 pending
+[   0.0min] started c3_unfixed_1-2_s1 (B) — 5 running, 11 pending
+[   0.0min] started c3_unfixed_1-2_s2 (B) — 6 running, 10 pending
+[   0.0min] started c3_unfixed_1-2_s3 (B) — 7 running, 9 pending
+[   0.0min] started c3_unfixed_1-3_s1 (B) — 8 running, 8 pending
+[  18.4min] finished c3_none_s4 (rc=0) — 1/16 done
+[  18.4min] started c3_unfixed_1-3_s2 (B) — 8 running, 7 pending
+[  18.6min] finished c3_none_s5 (rc=0) — 2/16 done
+[  18.6min] started c3_unfixed_1-3_s3 (B) — 8 running, 6 pending
+[  18.8min] finished c3_unfixed_1-2_s2 (rc=0) — 3/16 done
+[  18.8min] finished c3_unfixed_1-2_s3 (rc=0) — 4/16 done
+[  18.8min] started c3_unfixed_2-4_s1 (B) — 7 running, 5 pending
+[  18.8min] started c3_unfixed_2-4_s2 (B) — 8 running, 4 pending
+[  18.9min] finished c3_unfixed_1-4_s4 (rc=0) — 5/16 done
+[  18.9min] finished c3_unfixed_1-4_s5 (rc=0) — 6/16 done
+[  18.9min] finished c3_unfixed_1-2_s1 (rc=0) — 7/16 done
+[  18.9min] finished c3_unfixed_1-3_s1 (rc=0) — 8/16 done
+[  18.9min] started c3_unfixed_2-4_s3 (B) — 5 running, 3 pending
+[  18.9min] started ch6_unfixed_1-4_s1 (C) — 6 running, 2 pending
+[  18.9min] started ch6_unfixed_1-4_s2 (C) — 7 running, 1 pending
+[  18.9min] started ch6_unfixed_1-4_s3 (C) — 8 running, 0 pending
+[  36.8min] finished c3_unfixed_1-3_s2 (rc=0) — 9/16 done
+[  36.9min] finished c3_unfixed_1-3_s3 (rc=0) — 10/16 done
+[  37.0min] finished c3_unfixed_2-4_s1 (rc=0) — 11/16 done
+[  37.0min] finished c3_unfixed_2-4_s2 (rc=0) — 12/16 done
+[  37.1min] finished c3_unfixed_2-4_s3 (rc=0) — 13/16 done
+[  37.1min] finished ch6_unfixed_1-4_s2 (rc=0) — 14/16 done
+[  37.1min] finished ch6_unfixed_1-4_s3 (rc=0) — 15/16 done
+[  37.2min] finished ch6_unfixed_1-4_s1 (rc=0) — 16/16 done
+ALL DONE in 37.2 min

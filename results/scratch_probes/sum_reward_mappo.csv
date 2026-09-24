@@ -1,0 +1,5 @@
+# seed=25  n_agents=5  n_episodes=3  n_steps=2000
+episode,sum_reward,success,fail
+1,83.86970822490856,21,4
+2,65.49323954741365,19,6
+3,22.85282641664174,15,10
