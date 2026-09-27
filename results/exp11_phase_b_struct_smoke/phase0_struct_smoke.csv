@@ -1,0 +1,4 @@
+"# dyn mode=none d=0 [0,0] route_mask=free lam_hot=0.60 ch=3 seed=1 eps=2 ue=2"
+episode,reward,success,fail,arrived,route_rate,cond_route_rate,top_share,load_std
+1,-32.138,19,25,48,0.812,0.889,0.308,7.8
+2,-94.292,10,28,41,0.829,0.429,0.294,10.08

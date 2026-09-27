@@ -1,0 +1,94 @@
+{
+  "arms": {
+    "fixed1": {
+      "arrived": 72.0,
+      "dest_hhi": 0.2128989063371574,
+      "fail": 36.0,
+      "reward": -50.88312861518129,
+      "route_rate": 0.877762809681492,
+      "success": 29.6,
+      "success_rate": 0.4132169121816244
+    },
+    "fixed2": {
+      "arrived": 72.0,
+      "dest_hhi": 0.2092089715414672,
+      "fail": 34.0,
+      "reward": -27.339592077536583,
+      "route_rate": 0.8581252759444482,
+      "success": 31.8,
+      "success_rate": 0.4441548142856062
+    },
+    "fixed3": {
+      "arrived": 72.0,
+      "dest_hhi": 0.21042838235832054,
+      "fail": 38.6,
+      "reward": -72.70460010285089,
+      "route_rate": 0.8781070324253626,
+      "success": 27.4,
+      "success_rate": 0.3827526885683397
+    },
+    "frozen": {
+      "arrived": 72.0,
+      "dest_hhi": 0.2569334180451239,
+      "fail": 38.4,
+      "reward": -75.60954214046986,
+      "route_rate": 0.9782501946731381,
+      "success": 26.6,
+      "success_rate": 0.3745303255388477
+    },
+    "live": {
+      "arrived": 72.0,
+      "dest_hhi": 0.21073604736466528,
+      "fail": 32.6,
+      "reward": -16.586487273696804,
+      "route_rate": 0.7960898029076229,
+      "success": 33.0,
+      "success_rate": 0.4628999502921987
+    },
+    "local": {
+      "arrived": 72.0,
+      "dest_hhi": 0.22793723003927738,
+      "fail": 39.8,
+      "reward": -93.87430747166836,
+      "route_rate": 0.0,
+      "success": 25.4,
+      "success_rate": 0.35594840122322774
+    },
+    "unfixed1-3": {
+      "arrived": 72.0,
+      "dest_hhi": 0.21318797252881225,
+      "fail": 35.6,
+      "reward": -52.085507856902026,
+      "route_rate": 0.8621580528528121,
+      "success": 28.8,
+      "success_rate": 0.40473606197031897
+    }
+  },
+  "config": {
+    "capacity_stay": 0.7,
+    "ddl_max": 11,
+    "ddl_min": 5,
+    "dwell": 6,
+    "lam0": 0.2,
+    "lam_hot": 0.9,
+    "lam_near": 0.0,
+    "n_hotspots": 2
+  },
+  "gates": {
+    "A1_pass": false,
+    "A1_route_gap_pp": 10.6951549068971,
+    "A2_ci95_pp": [
+      5.0727112676056345,
+      12.438388786827218
+    ],
+    "A2_pass": true,
+    "A2_voi_pp": 8.836962475335103,
+    "A3_d2_relative_drop": 0.04049500544288223,
+    "A3_pass": false,
+    "A4_dose_monotone": false,
+    "A4_pass": false,
+    "A5_live_success": 0.4628999502921987,
+    "A5_pass": false,
+    "all_pass": false
+  }
+}

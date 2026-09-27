@@ -1,0 +1,74 @@
+WARNING:tensorflow:From C:\Users\zengd\Desktop\论文\W-MADDPG\MADDPG_Discrete\train_mappo_dyn.py:144: The name tf.set_random_seed is deprecated. Please use tf.compat.v1.set_random_seed instead.
+
+WARNING:tensorflow:From C:\Users\zengd\Desktop\论文\W-MADDPG\MADDPG_Discrete\mappo_agent.py:36: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From C:\Users\zengd\Desktop\论文\W-MADDPG\MADDPG_Discrete\mappo_agent.py:48: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From C:\Users\zengd\Desktop\论文\W-MADDPG\MADDPG_Discrete\mappo_agent.py:7: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From D:\tool\anaconda\envs\py37tf\lib\site-packages\tensorflow_core\python\layers\core.py:187: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:tensorflow:From C:\Users\zengd\Desktop\论文\W-MADDPG\MADDPG_Discrete\mappo_agent.py:146: The name tf.AUTO_REUSE is deprecated. Please use tf.compat.v1.AUTO_REUSE instead.
+
+WARNING:tensorflow:From C:\Users\zengd\Desktop\论文\W-MADDPG\MADDPG_Discrete\mappo_agent.py:174: The name tf.log is deprecated. Please use tf.math.log instead.
+
+WARNING:tensorflow:From C:\Users\zengd\Desktop\论文\W-MADDPG\MADDPG_Discrete\mappo_agent.py:93: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From C:\Users\zengd\Desktop\论文\W-MADDPG\MADDPG_Discrete\mappo_agent.py:93: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From C:\Users\zengd\Desktop\论文\W-MADDPG\MADDPG_Discrete\mappo_agent.py:182: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From D:\tool\anaconda\envs\py37tf\lib\site-packages\tensorflow_core\python\ops\math_grad.py:1424: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From C:\Users\zengd\Desktop\论文\W-MADDPG\MADDPG_Discrete\train_mappo_dyn.py:210: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From C:\Users\zengd\Desktop\论文\W-MADDPG\MADDPG_Discrete\train_mappo_dyn.py:212: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2026-09-27 14:29:24.805496: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+WARNING:tensorflow:From C:\Users\zengd\Desktop\论文\W-MADDPG\MADDPG_Discrete\train_mappo_dyn.py:213: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From C:\Users\zengd\Desktop\论文\W-MADDPG\MADDPG_Discrete\train_mappo_dyn.py:214: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+ep 1/1500 | r=10.1 s=20 f=18 | route=0.85 cond=0.80 | 0.42s/ep
+ep 50/1500 | r=-15.5 s=14 f=17 | route=0.82 cond=1.00 | 0.31s/ep
+ep 100/1500 | r=19.9 s=21 f=17 | route=0.90 cond=1.00 | 0.32s/ep
+ep 150/1500 | r=-14.8 s=18 f=21 | route=0.70 cond=0.50 | 0.33s/ep
+ep 200/1500 | r=-20.7 s=19 f=23 | route=0.93 cond=0.90 | 0.34s/ep
+ep 250/1500 | r=92.0 s=26 f=8 | route=0.81 cond=0.00 | 0.36s/ep
+ep 300/1500 | r=-86.5 s=13 f=30 | route=0.91 cond=0.80 | 0.36s/ep
+ep 350/1500 | r=46.1 s=22 f=13 | route=0.85 cond=0.80 | 0.36s/ep
+ep 400/1500 | r=70.4 s=25 f=11 | route=0.75 cond=0.00 | 0.37s/ep
+ep 450/1500 | r=-62.9 s=11 f=23 | route=0.81 cond=1.00 | 0.37s/ep
+ep 500/1500 | r=53.6 s=24 f=13 | route=0.82 cond=0.86 | 0.37s/ep
+ep 550/1500 | r=-16.0 s=16 f=19 | route=0.78 cond=0.00 | 0.37s/ep
+ep 600/1500 | r=23.0 s=27 f=22 | route=0.72 cond=0.50 | 0.37s/ep
+ep 650/1500 | r=-30.7 s=17 f=23 | route=0.83 cond=1.00 | 0.38s/ep
+ep 700/1500 | r=26.4 s=21 f=16 | route=0.81 cond=0.86 | 0.38s/ep
+ep 750/1500 | r=-70.5 s=15 f=29 | route=0.89 cond=1.00 | 0.38s/ep
+ep 800/1500 | r=0.2 s=19 f=19 | route=0.89 cond=1.00 | 0.38s/ep
+ep 850/1500 | r=-51.9 s=16 f=26 | route=0.86 cond=0.91 | 0.39s/ep
+ep 900/1500 | r=36.3 s=27 f=20 | route=0.83 cond=0.83 | 0.38s/ep
+ep 950/1500 | r=81.5 s=26 f=10 | route=0.89 cond=1.00 | 0.38s/ep
+ep 1000/1500 | r=-8.0 s=19 f=21 | route=0.93 cond=1.00 | 0.38s/ep
+ep 1050/1500 | r=40.2 s=26 f=18 | route=0.80 cond=0.83 | 0.39s/ep
+ep 1100/1500 | r=85.9 s=29 f=12 | route=0.88 cond=1.00 | 0.39s/ep
+ep 1150/1500 | r=58.9 s=25 f=13 | route=0.90 cond=1.00 | 0.39s/ep
+ep 1200/1500 | r=83.5 s=29 f=13 | route=0.88 cond=1.00 | 0.39s/ep
+ep 1250/1500 | r=-10.8 s=23 f=25 | route=0.88 cond=0.85 | 0.39s/ep
+ep 1300/1500 | r=15.9 s=21 f=18 | route=0.83 cond=0.67 | 0.39s/ep
+ep 1350/1500 | r=52.3 s=27 f=17 | route=0.89 cond=0.80 | 0.39s/ep
+ep 1400/1500 | r=60.5 s=21 f=9 | route=0.87 cond=0.00 | 0.39s/ep
+ep 1450/1500 | r=63.6 s=22 f=10 | route=0.88 cond=1.00 | 0.39s/ep
+ep 1500/1500 | r=99.8 s=28 f=8 | route=0.82 cond=1.00 | 0.39s/ep
+DONE tag=struct_live_s8

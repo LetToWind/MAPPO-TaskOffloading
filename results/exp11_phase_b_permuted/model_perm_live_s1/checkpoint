@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\zengd\\Desktop\\\350\256\272\346\226\207\\W-MADDPG\\MADDPG_Discrete\\results\\exp11_phase_b_permuted\\model_perm_live_s1\\model"
+all_model_checkpoint_paths: "C:\\Users\\zengd\\Desktop\\\350\256\272\346\226\207\\W-MADDPG\\MADDPG_Discrete\\results\\exp11_phase_b_permuted\\model_perm_live_s1\\model"

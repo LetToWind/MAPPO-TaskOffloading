@@ -1,0 +1,100 @@
+WARNING:tensorflow:From C:\Users\zengd\Desktop\论文\W-MADDPG\MADDPG_Discrete\train_mappo_dyn.py:144: The name tf.set_random_seed is deprecated. Please use tf.compat.v1.set_random_seed instead.
+
+WARNING:tensorflow:From C:\Users\zengd\Desktop\论文\W-MADDPG\MADDPG_Discrete\mappo_agent.py:34: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From C:\Users\zengd\Desktop\论文\W-MADDPG\MADDPG_Discrete\mappo_agent.py:46: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From C:\Users\zengd\Desktop\论文\W-MADDPG\MADDPG_Discrete\mappo_agent.py:7: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From D:\tool\anaconda\envs\py37tf\lib\site-packages\tensorflow_core\python\layers\core.py:187: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:tensorflow:From C:\Users\zengd\Desktop\论文\W-MADDPG\MADDPG_Discrete\mappo_agent.py:136: The name tf.log is deprecated. Please use tf.math.log instead.
+
+WARNING:tensorflow:From C:\Users\zengd\Desktop\论文\W-MADDPG\MADDPG_Discrete\mappo_agent.py:91: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From C:\Users\zengd\Desktop\论文\W-MADDPG\MADDPG_Discrete\mappo_agent.py:91: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From C:\Users\zengd\Desktop\论文\W-MADDPG\MADDPG_Discrete\mappo_agent.py:144: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From D:\tool\anaconda\envs\py37tf\lib\site-packages\tensorflow_core\python\ops\math_grad.py:1424: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From C:\Users\zengd\Desktop\论文\W-MADDPG\MADDPG_Discrete\train_mappo_dyn.py:189: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From C:\Users\zengd\Desktop\论文\W-MADDPG\MADDPG_Discrete\train_mappo_dyn.py:191: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2026-09-24 14:27:14.943877: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+WARNING:tensorflow:From C:\Users\zengd\Desktop\论文\W-MADDPG\MADDPG_Discrete\train_mappo_dyn.py:192: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+ep 1/3000 | r=23.0 s=31 f=27 | route=0.81 cond=0.83 | 4.07s/ep
+ep 50/3000 | r=47.7 s=30 f=21 | route=0.85 cond=0.93 | 0.88s/ep
+ep 100/3000 | r=58.6 s=30 f=19 | route=0.68 cond=0.53 | 0.79s/ep
+ep 150/3000 | r=-16.2 s=29 f=32 | route=0.81 cond=0.87 | 0.77s/ep
+ep 200/3000 | r=31.5 s=28 f=22 | route=0.76 cond=0.67 | 0.75s/ep
+ep 250/3000 | r=-6.2 s=30 f=31 | route=0.79 cond=0.75 | 0.77s/ep
+ep 300/3000 | r=134.5 s=36 f=10 | route=0.82 cond=0.82 | 0.76s/ep
+ep 350/3000 | r=-2.1 s=31 f=31 | route=0.84 cond=0.75 | 0.75s/ep
+ep 400/3000 | r=44.7 s=31 f=22 | route=0.91 cond=0.83 | 0.75s/ep
+ep 450/3000 | r=82.3 s=34 f=18 | route=0.76 cond=0.85 | 0.76s/ep
+ep 500/3000 | r=6.8 s=24 f=22 | route=0.88 cond=0.95 | 0.75s/ep
+ep 550/3000 | r=129.1 s=38 f=13 | route=0.81 cond=0.88 | 0.71s/ep
+ep 600/3000 | r=101.4 s=38 f=18 | route=0.84 cond=0.75 | 0.68s/ep
+ep 650/3000 | r=-8.4 s=28 f=30 | route=0.87 cond=0.82 | 0.70s/ep
+ep 700/3000 | r=-59.5 s=24 f=35 | route=0.89 cond=1.00 | 0.70s/ep
+ep 750/3000 | r=70.1 s=34 f=20 | route=0.80 cond=0.72 | 0.70s/ep
+ep 800/3000 | r=101.4 s=35 f=16 | route=0.75 cond=0.67 | 0.70s/ep
+ep 850/3000 | r=52.9 s=32 f=21 | route=0.80 cond=0.88 | 0.71s/ep
+ep 900/3000 | r=-11.0 s=31 f=33 | route=0.75 cond=0.91 | 0.71s/ep
+ep 950/3000 | r=66.1 s=33 f=19 | route=0.82 cond=0.87 | 0.71s/ep
+ep 1000/3000 | r=51.1 s=31 f=21 | route=0.83 cond=0.83 | 0.71s/ep
+ep 1050/3000 | r=80.5 s=29 f=13 | route=0.70 cond=0.86 | 0.71s/ep
+ep 1100/3000 | r=43.2 s=34 f=25 | route=0.80 cond=0.86 | 0.69s/ep
+ep 1150/3000 | r=38.5 s=33 f=24 | route=0.77 cond=0.77 | 0.67s/ep
+ep 1200/3000 | r=92.2 s=36 f=18 | route=0.78 cond=0.83 | 0.65s/ep
+ep 1250/3000 | r=78.7 s=28 f=12 | route=0.69 cond=1.00 | 0.64s/ep
+ep 1300/3000 | r=69.2 s=38 f=24 | route=0.78 cond=0.79 | 0.63s/ep
+ep 1350/3000 | r=93.4 s=34 f=15 | route=0.82 cond=0.86 | 0.62s/ep
+ep 1400/3000 | r=161.4 s=38 f=6 | route=0.77 cond=0.75 | 0.61s/ep
+ep 1450/3000 | r=35.6 s=31 f=23 | route=0.75 cond=0.86 | 0.60s/ep
+ep 1500/3000 | r=72.7 s=38 f=23 | route=0.83 cond=1.00 | 0.59s/ep
+ep 1550/3000 | r=-17.0 s=30 f=32 | route=0.73 cond=0.78 | 0.58s/ep
+ep 1600/3000 | r=132.9 s=34 f=8 | route=0.74 cond=1.00 | 0.57s/ep
+ep 1650/3000 | r=122.8 s=45 f=21 | route=0.73 cond=0.64 | 0.58s/ep
+ep 1700/3000 | r=49.5 s=38 f=28 | route=0.76 cond=0.82 | 0.58s/ep
+ep 1750/3000 | r=138.7 s=36 f=9 | route=0.81 cond=1.00 | 0.59s/ep
+ep 1800/3000 | r=164.5 s=39 f=7 | route=0.69 cond=0.78 | 0.59s/ep
+ep 1850/3000 | r=145.2 s=36 f=8 | route=0.76 cond=0.78 | 0.60s/ep
+ep 1900/3000 | r=138.1 s=39 f=12 | route=0.63 cond=0.85 | 0.60s/ep
+ep 1950/3000 | r=-16.7 s=28 f=30 | route=0.67 cond=0.75 | 0.60s/ep
+ep 2000/3000 | r=47.1 s=29 f=19 | route=0.82 cond=1.00 | 0.60s/ep
+ep 2050/3000 | r=110.0 s=43 f=20 | route=0.71 cond=0.79 | 0.60s/ep
+ep 2100/3000 | r=135.9 s=41 f=14 | route=0.77 cond=0.83 | 0.59s/ep
+ep 2150/3000 | r=26.6 s=27 f=21 | route=0.62 cond=0.50 | 0.58s/ep
+ep 2200/3000 | r=110.5 s=33 f=11 | route=0.79 cond=1.00 | 0.58s/ep
+ep 2250/3000 | r=26.1 s=32 f=26 | route=0.66 cond=0.67 | 0.57s/ep
+ep 2300/3000 | r=57.6 s=32 f=20 | route=0.70 cond=0.92 | 0.57s/ep
+ep 2350/3000 | r=16.4 s=34 f=30 | route=0.75 cond=1.00 | 0.56s/ep
+ep 2400/3000 | r=130.5 s=39 f=13 | route=0.68 cond=1.00 | 0.56s/ep
+ep 2450/3000 | r=113.1 s=38 f=16 | route=0.60 cond=0.68 | 0.55s/ep
+ep 2500/3000 | r=188.1 s=37 f=1 | route=0.62 cond=1.00 | 0.55s/ep
+ep 2550/3000 | r=55.7 s=38 f=27 | route=0.74 cond=0.84 | 0.54s/ep
+ep 2600/3000 | r=155.9 s=39 f=8 | route=0.81 cond=1.00 | 0.54s/ep
+ep 2650/3000 | r=117.4 s=36 f=12 | route=0.73 cond=0.76 | 0.54s/ep
+ep 2700/3000 | r=118.7 s=39 f=16 | route=0.78 cond=1.00 | 0.53s/ep
+ep 2750/3000 | r=-10.4 s=31 f=32 | route=0.76 cond=0.90 | 0.53s/ep
+ep 2800/3000 | r=172.6 s=42 f=8 | route=0.79 cond=0.33 | 0.53s/ep
+ep 2850/3000 | r=113.0 s=37 f=15 | route=0.72 cond=0.86 | 0.52s/ep
+ep 2900/3000 | r=7.0 s=32 f=30 | route=0.70 cond=0.77 | 0.52s/ep
+ep 2950/3000 | r=96.1 s=36 f=17 | route=0.74 cond=0.89 | 0.52s/ep
+ep 3000/3000 | r=54.8 s=30 f=19 | route=0.73 cond=0.87 | 0.51s/ep
+DONE tag=frozen_s4

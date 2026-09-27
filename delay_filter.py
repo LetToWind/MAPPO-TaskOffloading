@@ -32,7 +32,7 @@ class DelayFilter(object):
 
     def __init__(self, n_agents, obs_d, n_channels=obs_utils.N_INTERF_DIMS,
                  mode="none", d_value=0, d_min=0, d_max=0, partial_p=0.5,
-                 max_delay=None, rng=None):
+                 max_delay=None, rng=None, groups=None):
         assert mode in self.MODES, "unknown delay mode: %s" % mode
         self.n_agents = int(n_agents)
         self.obs_d = int(obs_d)
@@ -47,16 +47,20 @@ class DelayFilter(object):
         self.max_delay = int(max_delay) if max_delay is not None else max(
             self.d_value, self.d_max, 1)
 
-        # groups: list of index arrays (dims sharing one delay process)
-        infer_start = 2 * obs_utils.N_TASK_SLOTS
-        groups = [np.array([infer_start + c], dtype=np.int64)
+        if groups is not None:
+            # explicit group index arrays (e.g. neighbor-block-only layout)
+            self.groups = [np.asarray(g, dtype=np.int64) for g in groups]
+        else:
+            # legacy 34-dim layout: per-channel groups + per-neighbor groups
+            infer_start = 2 * obs_utils.N_TASK_SLOTS
+            gs = [np.array([infer_start + c], dtype=np.int64)
                   for c in range(self.n_channels)]
-        neigh_start = infer_start + self.n_channels
-        for j in range(self.n_neighbors):
-            groups.append(np.array([neigh_start + 2 * j,
+            neigh_start = infer_start + self.n_channels
+            for j in range(self.n_neighbors):
+                gs.append(np.array([neigh_start + 2 * j,
                                     neigh_start + 2 * j + 1], dtype=np.int64))
-        self.groups = groups
-        self.n_groups = len(groups)
+            self.groups = gs
+        self.n_groups = len(self.groups)
 
         self._sample_initial_delays()
         self.history = []
@@ -109,12 +113,11 @@ class DelayFilter(object):
         t = len(self.history) - 1
         out = self.history[t].copy()
         if self.mode == "frozen":
-            # arm (b) of the VoI calibration: interference observation is
-            # pinned to the episode's first frame (best-inertia proxy);
-            # neighbor-load groups stay real-time
+            # VoI calibration: ALL delayed groups pinned to the episode's
+            # first frame (best-inertia proxy); real-time dims untouched
             first = self.history[0]
             for i in range(self.n_agents):
-                for g, idx in enumerate(self.groups[:self.n_channels]):
+                for g, idx in enumerate(self.groups):
                     out[i, idx] = first[i, idx]
             return out
         for i in range(self.n_agents):

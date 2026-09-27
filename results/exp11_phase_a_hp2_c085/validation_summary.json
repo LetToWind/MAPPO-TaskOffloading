@@ -1,0 +1,98 @@
+{
+  "arms": {
+    "fixed1": {
+      "arrived": 42.728,
+      "dest_hhi": 0.21317521910759116,
+      "fail": 16.828,
+      "reward": 21.854742776311358,
+      "route_rate": 0.9381039640021868,
+      "success": 22.676,
+      "success_rate": 0.5384250695683604
+    },
+    "fixed2": {
+      "arrived": 42.728,
+      "dest_hhi": 0.2132334324443339,
+      "fail": 17.66,
+      "reward": 13.130626074294138,
+      "route_rate": 0.9370842469097151,
+      "success": 21.716,
+      "success_rate": 0.5176718397342741
+    },
+    "fixed3": {
+      "arrived": 42.728,
+      "dest_hhi": 0.21441606049431147,
+      "fail": 17.964,
+      "reward": 9.392755366815841,
+      "route_rate": 0.9374138180623688,
+      "success": 21.272,
+      "success_rate": 0.5056819283378297
+    },
+    "frozen": {
+      "arrived": 42.728,
+      "dest_hhi": 0.3464668889969241,
+      "fail": 19.896,
+      "reward": -9.609177551635625,
+      "route_rate": 0.9907845408842143,
+      "success": 19.212,
+      "success_rate": 0.45801007692908663
+    },
+    "live": {
+      "arrived": 42.728,
+      "dest_hhi": 0.21278569808783204,
+      "fail": 15.44,
+      "reward": 36.844000534321275,
+      "route_rate": 0.9116495010792914,
+      "success": 24.368,
+      "success_rate": 0.5782708055681881
+    },
+    "local": {
+      "arrived": 42.728,
+      "dest_hhi": 0.23226009768332262,
+      "fail": 19.0,
+      "reward": -5.39817922802176,
+      "route_rate": 0.0,
+      "success": 19.984,
+      "success_rate": 0.47645982469250725
+    },
+    "unfixed1-3": {
+      "arrived": 42.728,
+      "dest_hhi": 0.21246509893634158,
+      "fail": 17.656,
+      "reward": 12.938966277723592,
+      "route_rate": 0.9404963284154987,
+      "success": 21.696,
+      "success_rate": 0.5161271145242979
+    }
+  },
+  "config": {
+    "capacity_stay": 0.85,
+    "data_max": 300000.0,
+    "data_min": 100000.0,
+    "ddl_max": 11,
+    "ddl_min": 5,
+    "dwell": 6,
+    "forwarding_penalty": 0.75,
+    "hotspot_capacity_penalty": 2,
+    "lam0": 0.1,
+    "lam_hot": 0.6,
+    "lam_near": 0.0,
+    "n_hotspots": 2
+  },
+  "gates": {
+    "A1_pass": false,
+    "A1_route_gap_pp": 10.181098087568092,
+    "A2_ci95_pp": [
+      10.475368454725311,
+      13.573226186519394
+    ],
+    "A2_pass": true,
+    "A2_voi_pp": 12.026072863910152,
+    "A3_d2_relative_drop": 0.10479340345458324,
+    "A3_pass": true,
+    "A4_dose_monotone": true,
+    "A4_pass": true,
+    "A5_live_success": 0.5782708055681881,
+    "A5_pass": true,
+    "all_pass": false
+  }
+}

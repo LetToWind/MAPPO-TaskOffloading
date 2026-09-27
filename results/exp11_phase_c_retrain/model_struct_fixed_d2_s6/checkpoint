@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\zengd\\Desktop\\\350\256\272\346\226\207\\W-MADDPG\\MADDPG_Discrete\\results\\exp11_phase_c_retrain\\model_struct_fixed_d2_s6\\model"
+all_model_checkpoint_paths: "C:\\Users\\zengd\\Desktop\\\350\256\272\346\226\207\\W-MADDPG\\MADDPG_Discrete\\results\\exp11_phase_c_retrain\\model_struct_fixed_d2_s6\\model"

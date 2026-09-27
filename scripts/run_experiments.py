@@ -1,4 +1,4 @@
-"""Experiment runner: launches Phase-0 training runs grouped into folders.
+﻿"""Experiment runner: launches Phase-0 training runs grouped into folders.
 
 Each run writes phase0_{tag}.csv / phase0_{tag}_eval.csv into
 results/<group>/ and its console log into results/<group>/logs/.
@@ -71,8 +71,162 @@ def build_exp4_sealing():
     return runs
 
 
+def dynrun(tag, mode, seed, route_mask="", lam_hot=1.5, ch=3,
+           episodes=3000):
+    env = {
+        "_SCRIPT": "train_mappo_dyn.py",
+        "TAG": tag,
+        "DELAY_MODE": mode,
+        "SEED": str(seed),
+        "N_EPISODES": str(episodes),
+        "EVAL_EVERY": "200",
+        "EVAL_EPS": "20",
+        "TF_INTRA": "2",
+        "TF_INTER": "1",
+        "UPDATE_EVERY": "25",
+        "DYN_LAM_HOT": str(lam_hot),
+        "DYN_CH": str(ch),
+    }
+    if route_mask:
+        env["ROUTE_MASK"] = route_mask
+    return env
+
+
+def dynrun_v11(tag, mode, seed, route_mask="", episodes=1500,
+               share_actor=False, save_model=False,
+               random_neighbor_order=False, structured_route=False,
+               d_value=None, d_min=None, d_max=None):
+    """Phase-B MAPPO pilot on the Phase-A-qualified v1.1 scenario."""
+    env = dynrun(tag, mode, seed, route_mask=route_mask, lam_hot=0.6,
+                 ch=3, episodes=episodes)
+    env.update({
+        "DYN_LAM0": "0.1",
+        "DYN_DWELL": "10",
+        "DYN_N_HOTSPOTS": "2",
+        "DYN_CAPACITY_MARKOV": "1",
+        "DYN_CAPACITY_STAY": "0.85",
+        "DYN_HOTSPOT_CAP_PENALTY": "1",
+        "DYN_DDL_MIN": "5",
+        "DYN_DDL_MAX": "11",
+        "DYN_DATA_MIN": "100000",
+        "DYN_DATA_MAX": "300000",
+    })
+    if share_actor:
+        env["SHARE_ACTOR"] = "1"
+    if save_model:
+        env["SAVE_MODEL"] = "1"
+    if random_neighbor_order:
+        env["DYN_RANDOM_NEIGHBOR_ORDER"] = "1"
+    if structured_route:
+        env["STRUCTURED_ROUTE"] = "1"
+    if d_value is not None:
+        env["DELAY_VALUE"] = str(d_value)
+    if d_min is not None:
+        env["DELAY_MIN"] = str(d_min)
+    if d_max is not None:
+        env["DELAY_MAX"] = str(d_max)
+    return env
+
+
 GROUPS = {
-    "exp4_sealing": build_exp4_sealing,
+    # Phase B pilot after exp11 Phase-A gates passed.  Three seeds are a
+    # screening run; expand to >=10 only if the live-vs-frozen effect survives.
+    "exp11_phase_b_pilot": lambda: [
+        ("FL", dynrun_v11("fl_s%d" % s, "none", s,
+                          route_mask="local"))
+        for s in range(1, 4)
+    ] + [
+        ("LIVE", dynrun_v11("live_s%d" % s, "none", s))
+        for s in range(1, 4)
+    ] + [
+        ("FROZEN", dynrun_v11("frozen_s%d" % s, "frozen", s))
+        for s in range(1, 4)
+    ],
+    "exp11_phase_b_shared": lambda: [
+        ("LIVE", dynrun_v11("shared_live_s%d" % s, "none", s,
+                            share_actor=True, save_model=True))
+        for s in range(1, 4)
+    ] + [
+        ("FROZEN", dynrun_v11("shared_frozen_s%d" % s, "frozen", s,
+                              share_actor=True))
+        for s in range(1, 4)
+    ],
+    "exp11_phase_b_permuted": lambda: [
+        ("LIVE", dynrun_v11("perm_live_s%d" % s, "none", s,
+                            share_actor=True, save_model=True,
+                            random_neighbor_order=True))
+        for s in range(1, 4)
+    ] + [
+        ("FROZEN", dynrun_v11("perm_frozen_s%d" % s, "frozen", s,
+                              share_actor=True,
+                              random_neighbor_order=True))
+        for s in range(1, 4)
+    ],
+    "exp11_phase_b_structured": lambda: [
+        ("LIVE", dynrun_v11("struct_live_s%d" % s, "none", s,
+                            share_actor=True, save_model=True,
+                            random_neighbor_order=True,
+                            structured_route=True))
+        for s in range(1, 4)
+    ] + [
+        ("FROZEN", dynrun_v11("struct_frozen_s%d" % s, "frozen", s,
+                              share_actor=True,
+                              random_neighbor_order=True,
+                              structured_route=True))
+        for s in range(1, 4)
+    ],
+    "exp11_phase_b_structured_more": lambda: [
+        ("LIVE", dynrun_v11("struct_live_s%d" % s, "none", s,
+                            share_actor=True, save_model=True,
+                            random_neighbor_order=True,
+                            structured_route=True))
+        for s in range(4, 11)
+    ] + [
+        ("FROZEN", dynrun_v11("struct_frozen_s%d" % s, "frozen", s,
+                              share_actor=True,
+                              random_neighbor_order=True,
+                              structured_route=True))
+        for s in range(4, 11)
+    ],
+    # Phase-C second half: retrain the qualified structured Base MAPPO under
+    # representative fixed and stochastic observation delays.  These runs
+    # separate irreducible delay damage from damage recoverable by adaptation.
+    "exp11_phase_c_retrain": lambda: [
+        ("D2", dynrun_v11("struct_fixed_d2_s%d" % s, "fixed", s,
+                           share_actor=True, save_model=True,
+                           random_neighbor_order=True,
+                           structured_route=True, d_value=2))
+        for s in range(1, 11)
+    ] + [
+        ("U13", dynrun_v11("struct_unfixed_1-3_s%d" % s, "unfixed", s,
+                            share_actor=True, save_model=True,
+                            random_neighbor_order=True,
+                            structured_route=True, d_min=1, d_max=3))
+        for s in range(1, 11)
+    ],
+    # Phase 0' calibration: forced-local vs free vs frozen (VoI), no delay
+    "exp10_calib": lambda: [
+        ("FL", dynrun("fl_s%d" % s, "none", s, route_mask="local"))
+        for s in range(1, 6)
+    ] + [
+        ("FREE", dynrun("none_s%d" % s, "none", s))
+        for s in range(1, 6)
+    ] + [
+        ("FZ", dynrun("frozen_s%d" % s, "frozen", s))
+        for s in range(1, 6)
+    ],
+    # optional hotspot sweep
+    "exp10b_hotspot": lambda: [
+        ("SW", dynrun("lh%02d_none_s%d" % (int(lh * 10), s), "none", s,
+                      lam_hot=lh))
+        for lh in (0.4, 0.8)
+        for s in range(1, 4)
+    ] + [
+        ("SW", dynrun("lh%02d_fl_s%d" % (int(lh * 10), s), "none", s,
+                      route_mask="local", lam_hot=lh))
+        for lh in (0.4, 0.8)
+        for s in range(1, 4)
+    ],
     "exp4b_seeds": lambda: [
         ("A", run("c3_none_s%d" % s, 3, "none", s))
         for s in (6, 7, 8, 9, 10)
@@ -125,7 +279,7 @@ GROUPS = {
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--group", default="exp4_sealing", choices=sorted(GROUPS))
+    ap.add_argument("--group", default="exp10_calib", choices=sorted(GROUPS))
     ap.add_argument("--only", default=None,
                     help="restrict to sub-group label (e.g. A, B, C)")
     ap.add_argument("--max-parallel", type=int, default=8)
@@ -154,13 +308,14 @@ def main():
     while pending or running:
         while pending and len(running) < args.max_parallel:
             sub, env = pending.pop(0)
+            script = env.pop("_SCRIPT", "train_mappo_phase0.py")
             tag = env["TAG"]
             full_env = dict(os.environ)
             full_env.update(env)
             full_env["OUT_DIR"] = str(out_dir)
             lf = open(log_dir / ("%s.log" % tag), "w")
             pop = subprocess.Popen(
-                [sys.executable, "-X", "utf8", "-W", "ignore", str(RUNNER)],
+                [sys.executable, "-X", "utf8", "-W", "ignore", str(PROJECT_ROOT / script)],
                 cwd=str(PROJECT_ROOT), env=full_env,
                 stdout=lf, stderr=subprocess.STDOUT)
             running.append((pop, tag, lf))
